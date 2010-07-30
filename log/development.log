@@ -1,0 +1,366 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (20.1ms)[0m   [0;1mCREATE DATABASE `gtree_development` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_general_ci`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (109.2ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (214.0ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-30 05:41:06) [GET]
+
+
+CGI::Session::CookieStore::TamperedWithCookie (CGI::Session::CookieStore::TamperedWithCookie):
+    /vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:145:in `unmarshal'
+    /vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:102:in `restore'
+    /usr/lib/ruby/1.8/cgi/session.rb:312:in `[]'
+    /vendor/rails/actionpack/lib/action_controller/cgi_process.rb:98:in `session'
+    /vendor/rails/actionpack/lib/action_controller/cgi_process.rb:130:in `stale_session_check!'
+    /vendor/rails/actionpack/lib/action_controller/cgi_process.rb:78:in `session'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1208:in `assign_shortcuts_without_flash'
+    /vendor/rails/actionpack/lib/action_controller/flash.rb:166:in `assign_shortcuts'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:519:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:184:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (20.2ms)
+Rendered /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.0ms)
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-30 05:43:30) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 100ms (View: 2, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+/!\ FAILSAFE /!\  Fri Jul 30 05:43:51 +0800 2010
+  Status: 500 Internal Server Error
+  No route matches "/images/logo.png" with {:method=>:get}
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-30 05:44:36) [GET]
+
+
+Errno::ENOENT (No such file or directory - /home/xacaa/public_html/gtree/config/routes.rb):
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:248:in `stat'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:248:in `reload'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:150:in `reload_application'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:178:in `send'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:178:in `evaluate_method'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:166:in `call'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `run'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `each'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `send'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `run'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:277:in `run_callbacks'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:111:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (20.0ms)
+Rendered /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (0.8ms)
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+/!\ FAILSAFE /!\  Fri Jul 30 05:46:58 +0800 2010
+  Status: 500 Internal Server Error
+  No such file or directory - /home/xacaa/public_html/gtree/config/routes.rb
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:248:in `stat'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:248:in `reload'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:150:in `reload_application'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:178:in `send'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:178:in `evaluate_method'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:166:in `call'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `run'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `each'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `send'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `run'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/callbacks.rb:277:in `run_callbacks'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:111:in `dispatch_unlocked'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/xacaa/public_html/gtree/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /home/xacaa/public_html/gtree/vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-30 05:47:43) [GET]
+
+
+Errno::ENOENT (No such file or directory - /home/xacaa/public_html/gtree/config/routes.rb):
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:248:in `stat'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:248:in `reload'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:150:in `reload_application'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:178:in `send'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:178:in `evaluate_method'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:166:in `call'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `run'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `each'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `send'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:90:in `run'
+    /vendor/rails/activesupport/lib/active_support/callbacks.rb:277:in `run_callbacks'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:111:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:103:in `handle_dispatch'
+    /vendor/rails/railties/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/rails/railties/lib/webrick_server.rb:60:in `dispatch'
+    /vendor/rails/railties/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (18.4ms)
+Rendered /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.0ms)
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-30 15:09:19) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 101ms (View: 2, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-30 15:09:25) [GET]
+
+
+ActionController::RoutingError (No route matches "/tablatures" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-30 15:09:29) [GET]
+
+
+ActionController::RoutingError (No route matches "/tabs" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-30 15:09:40) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 27ms (View: 1, DB: 1) | 200 OK [http://localhost/rails/info/properties]

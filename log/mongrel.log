@@ -1,0 +1,15 @@
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:80
+/usr/lib/ruby/1.8/mongrel/tcphack.rb:12:in `initialize_without_backlog': Permission denied - bind(2) (Errno::EACCES)
+	from /usr/lib/ruby/1.8/mongrel/tcphack.rb:12:in `initialize'
+	from /usr/lib/ruby/1.8/mongrel.rb:93:in `new'
+	from /usr/lib/ruby/1.8/mongrel.rb:93:in `initialize'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:139:in `new'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:139:in `listener'
+	from /usr/bin/mongrel_rails:100:in `cloaker_'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:50:in `call'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:50:in `initialize'
+	from /usr/bin/mongrel_rails:85:in `new'
+	from /usr/bin/mongrel_rails:85:in `run'
+	from /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+	from /usr/bin/mongrel_rails:282
