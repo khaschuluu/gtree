@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  tab: MyText
+  artist: MyString
+  tag: MyString
+  user_id: 1
+
+two:
+  title: MyString
+  tab: MyText
+  artist: MyString
+  tag: MyString
+  user_id: 1
