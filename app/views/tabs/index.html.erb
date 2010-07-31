@@ -3,7 +3,6 @@
 <table>
   <tr>
     <th>Title</th>
-    <th>Tab</th>
     <th>Artist</th>
     <th>Tag</th>
     <th>User</th>
@@ -11,18 +10,20 @@
 
 <% for tab in @tabs %>
   <tr>
-    <td><%=h tab.title %></td>
-    <td><%=h tab.tab %></td>
+    <td><h2><%= link_to tab.title, tab %></h2></td>
     <td><%=h tab.artist %></td>
     <td><%=h tab.tag %></td>
     <td><%=h tab.user_id %></td>
-    <td><%= link_to 'Show', tab %></td>
-    <td><%= link_to 'Edit', edit_tab_path(tab) %></td>
-    <td><%= link_to 'Destroy', tab, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% if current_user %>
+      <td><%= link_to 'Edit', edit_tab_path(tab) %></td>
+      <td><%= link_to 'Destroy', tab, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New tab', new_tab_path %>
+<% if current_user %>
+  <%= link_to 'New tab', new_tab_path %>
+<% end %>

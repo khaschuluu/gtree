@@ -1,5 +1,5 @@
 class UserSessionsController < ApplicationController
-	layout "tabs"
+  layout "tabs"
 
   # GET /user_sessions
   # GET /user_sessions.xml

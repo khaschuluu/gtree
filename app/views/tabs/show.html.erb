@@ -1,11 +1,5 @@
 <p>
-  <b>Title:</b>
-  <%=h @tab.title %>
-</p>
-
-<p>
-  <b>Tab:</b>
-  <%=h @tab.tab %>
+  <h1><%=h @tab.title %></h1>
 </p>
 
 <p>
@@ -23,6 +17,9 @@
   <%=h @tab.user_id %>
 </p>
 
+<pre>
+  <%= @tab.tab %>
+</pre>
 
 <%= link_to 'Edit', edit_tab_path(@tab) %> |
 <%= link_to 'Back', tabs_path %>

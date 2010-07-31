@@ -34,13 +34,19 @@ class TabsController < ApplicationController
 
   # GET /tabs/1/edit
   def edit
-    @tab = Tab.find(params[:id])
+    if current_user
+      @tab = Tab.find(params[:id])
+    else
+      flash[:notice] = 'Premission denied!'
+      redirect_to root_url
+    end
   end
 
   # POST /tabs
   # POST /tabs.xml
   def create
     @tab = Tab.new(params[:tab])
+    @tab.user_id = current_user.id
 
     respond_to do |format|
       if @tab.save
@@ -74,12 +80,17 @@ class TabsController < ApplicationController
   # DELETE /tabs/1
   # DELETE /tabs/1.xml
   def destroy
-    @tab = Tab.find(params[:id])
-    @tab.destroy
+    if current_user
+      @tab = Tab.find(params[:id])
+      @tab.destroy
 
-    respond_to do |format|
-      format.html { redirect_to(tabs_url) }
-      format.xml  { head :ok }
+      respond_to do |format|
+        format.html { redirect_to(tabs_url) }
+        format.xml  { head :ok }
+      end
+    else
+      flash[:notice] = 'Premission denied!'
+      redirect_to root_url
     end
   end
 end

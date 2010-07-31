@@ -407,7 +407,7 @@ Completed in 35ms (View: 16, DB: 2) | 200 OK [http://localhost/users/new]
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-30 15:57:07) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -554,7 +554,7 @@ Completed in 29ms (View: 12, DB: 1) | 200 OK [http://localhost/users/new]
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-30 15:58:53) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -677,7 +677,7 @@ Completed in 37ms (View: 16, DB: 1) | 200 OK [http://localhost/users/new]
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-30 15:59:38) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -800,7 +800,7 @@ Completed in 32ms (View: 14, DB: 1) | 200 OK [http://localhost/users/new]
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-30 16:00:33) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -878,7 +878,7 @@ Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_contr
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-30 16:01:42) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -935,7 +935,7 @@ Completed in 32ms (View: 14, DB: 1) | 200 OK [http://localhost/users/new]
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-30 16:02:07) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -959,7 +959,7 @@ Completed in 32ms (View: 10, DB: 1) | 200 OK [http://localhost/login]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-30 16:16:46) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -1060,7 +1060,7 @@ Completed in 34ms (View: 10, DB: 1) | 200 OK [http://localhost/login]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-30 16:22:35) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -1572,7 +1572,7 @@ Completed in 35ms (View: 10, DB: 1) | 200 OK [http://localhost/login]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-30 16:53:43) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -2252,7 +2252,7 @@ Completed in 65ms (View: 35, DB: 1) | 200 OK [http://localhost/login]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 02:19:03) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -2263,7 +2263,7 @@ Completed in 272ms (View: 11, DB: 2) | 200 OK [http://localhost/user_sessions]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 02:19:12) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -2423,7 +2423,7 @@ Completed in 42ms (View: 13, DB: 2) | 200 OK [http://localhost/user_sessions]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 02:20:01) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -2553,7 +2553,7 @@ Completed in 30ms (View: 13, DB: 1) | 200 OK [http://localhost/users/new]
 
 
 Processing UsersController#create (for 127.0.0.1 at 2010-07-31 02:20:53) [POST]
-  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"Hgv1991xelee", "username"=>"xacaa", "password"=>"Hgv1991xelee", "email"=>"xacaapyy@gmail.com"}}
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12", "user"=>{"password_confirmation"=>"blahblahblahblah", "username"=>"xacaa", "password"=>"blahblahblahblah", "email"=>"xacaapyy@gmail.com"}}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -3531,7 +3531,7 @@ Completed in 36ms (View: 11, DB: 1) | 200 OK [http://localhost/login]
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 02:26:29) [POST]
-  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Create", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
@@ -4004,7 +4004,7 @@ Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_contr
 
 
 Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 02:32:35) [POST]
-  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"xacaa", "password"=>"Hgv1991xelee"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
+  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"cefec94510b09a394cead08c16d42ccaf936cf12"}
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
   [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
@@ -4254,3 +4254,1233 @@ ActionController::RoutingError (No route matches "/css/blueprint/print.css" with
     script/server:3
 
 Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:10:44) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (13.8ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 170ms (View: 138, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:10:45) [GET]
+
+
+ActionController::RoutingError (No route matches "/blueprint/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:10:45) [GET]
+
+
+ActionController::RoutingError (No route matches "/blueprint/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:11:35) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:13:18) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:18) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:18) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:13:20) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:20) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:20) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 108ms (View: 99, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-31 16:13:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /home/xacaa/public_html/gtree/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:13:26) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:14:36) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:14:41) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing TabsController#new (for 127.0.0.1 at 2010-07-31 16:14:49) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+Rendering template within layouts/tabs
+Rendering tabs/new
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 62ms (View: 52, DB: 2) | 200 OK [http://localhost/tabs/new]
+
+
+Processing TabsController#create (for 127.0.0.1 at 2010-07-31 16:28:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7cbb815271375c1428284419da647a58efd3bf71", "tab"=>{"artist"=>"John Lennon", "title"=>"Working Class Hero Tab", "tag"=>"John Lennon, Plastic Ono Band, Rock", "user_id"=>"1", "tab"=>"                       WORKING CLASS HERO\r\n                         by John Lennon\r\n             from the album \"Plastic Ono Band,\" 1970\r\n\r\nThis riff is both the intro and the fill between the vocals:\r\n\r\n    Am\r\n\r\nE --------------------------------------------------------------|\r\nB -----1-1-1-1-------1-1-1-1-------1-1-1-1-------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2-------2-2-2-2-------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2-------2-2-2-2---0-2-2-2-2-2--------|\r\nA --0---------------------------0-------------------------------|\r\nE --------------------------------------------------------------|\r\n\r\n\r\nHere's the first verse and refrain:\r\n\r\n    Am                        G              Am\r\n\r\nE ----------------------------3---3-3-3-3-----------------------|\r\nB -----1-1-1-1-------1-1-1-1--0---0-0-0-0--------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nA --0-------------------------2---2-2-2-2----0------------------|\r\nE ----------------------------3---3-3-3-3-----------------------|\r\n\r\n As soon as yer  born, they   make you feel  small\r\n By giving you   no time in-  stead of it    all\r\n\r\n    Am                        Em              Am\r\n\r\nE --------------------------------------------------------------|\r\nB -----1-1-1-1-------1-1-1-1---------------------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2---------------------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2--2-2-2-2-2-2--------2-2-2-2--------|\r\nA --0-------------------------2-2-2-2-2-2----0------------------|\r\nE ----------------------------0-0-0-0-0-0-----------------------|\r\n\r\nTil the\r\n    pain is so   big you feel nothing at     all\r\n\r\n    Am                        G              Am\r\n\r\nE ----------------------------3---3-3-3-3-----------------------|\r\nB -----1-1-1-1-------1-1-1-1--0---0-0-0-0--------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nA --0-------------------------2---2-2-2-2----0------------------|\r\nE ----------------------------3---3-3-3-3-----------------------|\r\n\r\n A working class hero is      somethin' to   be\r\n\r\n     Am             G             D           Am\r\n\r\nE ------------------3---3-3-3-3---2---2-2-2---------------------|\r\nB ----1---1-1-1-1---0---0-0-0-0---3---3-3-3-------1-1-1-1-------|\r\nG ----2---2-2-2-2---0---0-0-0-0---2---2-2-2-------2-2-2-2-------|\r\nD ----2---2-2-2-2---0---0-0-0-0---0---0-0-0-------2-2-2-2-------|\r\nA ------------------2---2-2-2-2----------------0----------------|\r\nE ------------------3---3-3-3-3---------------------------------|\r\n\r\n A   working class  hero is       somethin' to be\r\n\r\nThat's every verse, except for the very last line, when he ends\r\nit on a very faint D chord, then resolves to an A minor:\r\n\r\n     Am                          G             D\r\n\r\nE -------------------------------3---3-3-3-3---2-------|\r\nB --------1-1-1-1-------1-1-1-1--0---0-0-0-0---3-------|\r\nG --------2-2-2-2-------2-2-2-2--0---0-0-0-0---2-------|\r\nD --------2-2-2-2---0-2-2-2-2-2--0---0-0-0-0---0-------|\r\nA ----0--------------------------2---2-2-2-2-----------|\r\nE -------------------------------3---3-3-3-3-----------|\r\n\r\nif ya want to be a hero then     just follow   me...\r\n\r\n     Am\r\n\r\nE --------------------------------------------------------------|\r\nB ---1------------1---------------------------------------------|\r\nG ---2------------2---------------------------------------------|\r\nD ---2------------2---------------------------------------------|\r\nA --------------------------------------------------------------|\r\nE -----------0--------------------------------------------------|\r\n\r\nThe open E note is a loud pluck, and play that last Am chord\r\nclose to the bridge of the guitar and get that tinny, stiff\r\nsound.\r\n\r\nActually, my strumming patterns are approximations; go with\r\nwhatever you hear or whatever strumming pattern sounds best.  Enjoy...\r\n\r\nV1\r\nAs soon as you're born, they make you feel small\r\nBy giving you no time instead of it all\r\n'Til the pain is so big you feel nothing at all\r\nREF\r\nA working class hero is somethin' to be\r\nA working class hero is somethin' to be\r\nV2\r\nThey hurt you at home, and they hit you at school\r\nThey hate you if you're clever, and they despise a fool\r\n'Til you're so f*cking crazy you can't follow their rules\r\nREF\r\nA working class hero is somethin' to be\r\nA working class hero is somethin' to be\r\nV3\r\nWhen they've tortured and scared you for twenty-odd years\r\nThey they expect you to pick a career\r\nWhen you can't really function you're so full of fear\r\nREF\r\nA working class hero is somethin' to be\r\nA working class hero is somethin' to be\r\nV4\r\nKeep you doped with religion, sex, and TV\r\nAnd you think you're so clever and classless and free\r\nBut you're still f*cking peasants as far as I can see\r\nREF\r\nA working class hero is somethin' to be\r\nA working class hero is somethin' to be\r\nV5\r\nThere's room at the top, they are tellin' you still\r\nBut first you must learn to smile as you kill\r\nIf you want to be like the folks on the hill\r\nREF\r\nA working class hero is somethin' to be\r\nA working class hero is somethin' to be\r\n\r\nIf you want to be a hero then just follow me\r\nIf you want to be a hero then just follow me...\r\n\r\nDan\r\nDanAmrich@aol.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mTab Create (0.7ms)[0m   [0;1mINSERT INTO `tabs` (`artist`, `created_at`, `title`, `updated_at`, `tag`, `user_id`, `tab`) VALUES('John Lennon', '2010-07-31 08:28:18', 'Working Class Hero Tab', '2010-07-31 08:28:18', 'John Lennon, Plastic Ono Band, Rock', 1, ' WORKING CLASS HERO\r\n by John Lennon\r\n from the album \"Plastic Ono Band,\" 1970\r\n\r\nThis riff is both the intro and the fill between the vocals:\r\n\r\n Am\r\n\r\nE --------------------------------------------------------------|\r\nB -----1-1-1-1-------1-1-1-1-------1-1-1-1-------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2-------2-2-2-2-------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2-------2-2-2-2---0-2-2-2-2-2--------|\r\nA --0---------------------------0-------------------------------|\r\nE --------------------------------------------------------------|\r\n\r\n\r\nHere\'s the first verse and refrain:\r\n\r\n Am G Am\r\n\r\nE ----------------------------3---3-3-3-3-----------------------|\r\nB -----1-1-1-1-------1-1-1-1--0---0-0-0-0--------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nA --0-------------------------2---2-2-2-2----0------------------|\r\nE ----------------------------3---3-3-3-3-----------------------|\r\n\r\n As soon as yer born, they make you feel small\r\n By giving you no time in- stead of it all\r\n\r\n Am Em Am\r\n\r\nE --------------------------------------------------------------|\r\nB -----1-1-1-1-------1-1-1-1---------------------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2---------------------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2--2-2-2-2-2-2--------2-2-2-2--------|\r\nA --0-------------------------2-2-2-2-2-2----0------------------|\r\nE ----------------------------0-0-0-0-0-0-----------------------|\r\n\r\nTil the\r\n pain is so big you feel nothing at all\r\n\r\n Am G Am\r\n\r\nE ----------------------------3---3-3-3-3-----------------------|\r\nB -----1-1-1-1-------1-1-1-1--0---0-0-0-0--------1-1-1-1--------|\r\nG -----2-2-2-2-------2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nD -----2-2-2-2---0-2-2-2-2-2--0---0-0-0-0--------2-2-2-2--------|\r\nA --0-------------------------2---2-2-2-2----0------------------|\r\nE ----------------------------3---3-3-3-3-----------------------|\r\n\r\n A working class hero is somethin\' to be\r\n\r\n Am G D Am\r\n\r\nE ------------------3---3-3-3-3---2---2-2-2---------------------|\r\nB ----1---1-1-1-1---0---0-0-0-0---3---3-3-3-------1-1-1-1-------|\r\nG ----2---2-2-2-2---0---0-0-0-0---2---2-2-2-------2-2-2-2-------|\r\nD ----2---2-2-2-2---0---0-0-0-0---0---0-0-0-------2-2-2-2-------|\r\nA ------------------2---2-2-2-2----------------0----------------|\r\nE ------------------3---3-3-3-3---------------------------------|\r\n\r\n A working class hero is somethin\' to be\r\n\r\nThat\'s every verse, except for the very last line, when he ends\r\nit on a very faint D chord, then resolves to an A minor:\r\n\r\n Am G D\r\n\r\nE -------------------------------3---3-3-3-3---2-------|\r\nB --------1-1-1-1-------1-1-1-1--0---0-0-0-0---3-------|\r\nG --------2-2-2-2-------2-2-2-2--0---0-0-0-0---2-------|\r\nD --------2-2-2-2---0-2-2-2-2-2--0---0-0-0-0---0-------|\r\nA ----0--------------------------2---2-2-2-2-----------|\r\nE -------------------------------3---3-3-3-3-----------|\r\n\r\nif ya want to be a hero then just follow me...\r\n\r\n Am\r\n\r\nE --------------------------------------------------------------|\r\nB ---1------------1---------------------------------------------|\r\nG ---2------------2---------------------------------------------|\r\nD ---2------------2---------------------------------------------|\r\nA --------------------------------------------------------------|\r\nE -----------0--------------------------------------------------|\r\n\r\nThe open E note is a loud pluck, and play that last Am chord\r\nclose to the bridge of the guitar and get that tinny, stiff\r\nsound.\r\n\r\nActually, my strumming patterns are approximations; go with\r\nwhatever you hear or whatever strumming pattern sounds best. Enjoy...\r\n\r\nV1\r\nAs soon as you\'re born, they make you feel small\r\nBy giving you no time instead of it all\r\n\'Til the pain is so big you feel nothing at all\r\nREF\r\nA working class hero is somethin\' to be\r\nA working class hero is somethin\' to be\r\nV2\r\nThey hurt you at home, and they hit you at school\r\nThey hate you if you\'re clever, and they despise a fool\r\n\'Til you\'re so f*cking crazy you can\'t follow their rules\r\nREF\r\nA working class hero is somethin\' to be\r\nA working class hero is somethin\' to be\r\nV3\r\nWhen they\'ve tortured and scared you for twenty-odd years\r\nThey they expect you to pick a career\r\nWhen you can\'t really function you\'re so full of fear\r\nREF\r\nA working class hero is somethin\' to be\r\nA working class hero is somethin\' to be\r\nV4\r\nKeep you doped with religion, sex, and TV\r\nAnd you think you\'re so clever and classless and free\r\nBut you\'re still f*cking peasants as far as I can see\r\nREF\r\nA working class hero is somethin\' to be\r\nA working class hero is somethin\' to be\r\nV5\r\nThere\'s room at the top, they are tellin\' you still\r\nBut first you must learn to smile as you kill\r\nIf you want to be like the folks on the hill\r\nREF\r\nA working class hero is somethin\' to be\r\nA working class hero is somethin\' to be\r\n\r\nIf you want to be a hero then just follow me\r\nIf you want to be a hero then just follow me...\r\n\r\nDan\r\nDanAmrich@aol.com')[0m
+  [4;35;1mSQL (94.5ms)[0m   [0mCOMMIT[0m
+Redirected to #<Tab:0xb649ece0>
+Completed in 116ms (DB: 97) | 302 Found [http://localhost/tabs]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-07-31 16:28:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.5ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 1) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 138ms (View: 116, DB: 3) | 200 OK [http://localhost/tabs/1]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-07-31 16:32:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 1) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 25, DB: 2) | 200 OK [http://localhost/tabs/1]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-07-31 16:33:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 1) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 24, DB: 2) | 200 OK [http://localhost/tabs/1]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:33:30) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.6ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 30, DB: 3) | 200 OK [http://localhost/tabs]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:34:00) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 44ms (View: 32, DB: 2) | 200 OK [http://localhost/tabs]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:34:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 124ms (View: 37, DB: 2) | 200 OK [http://localhost/tabs]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:35:45) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 30, DB: 2) | 200 OK [http://localhost/tabs]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-07-31 16:35:50) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/tabs
+Rendering user_sessions/new
+Completed in 37ms (View: 14, DB: 1) | 200 OK [http://localhost/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 16:35:55) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"xacaa", "password"=>"blahblahblahblah"}, "authenticity_token"=>"7cbb815271375c1428284419da647a58efd3bf71"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'xacaa') LIMIT 1[0m
+Cookie set: user_credentials=087dd881baf0ae5bba7eaf009dab8793194634eddd5ba4a1aee2ec20bd9ad5f84601fe0a854253f185253d910425ec992e585412f271731c7687ad73f623c6d9%3A%3A1; path=/
+Redirected to http://localhost:3000/
+Completed in 282ms (DB: 2) | 302 Found [http://localhost/user_sessions]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:35:56) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 57ms (View: 44, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:36:36) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 45ms (View: 35, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-07-31 16:36:39) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Cookie set: user_credentials=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 27ms (DB: 1) | 302 Found [http://localhost/logout]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:36:39) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 150ms (View: 138, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 16:51:27) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 31, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-07-31 16:51:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 1) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 26, DB: 2) | 200 OK [http://localhost/tabs/1]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:29:12) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 31, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing TabsController#new (for 127.0.0.1 at 2010-07-31 17:29:14) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+Rendering template within layouts/tabs
+Rendering tabs/new
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 31, DB: 3) | 200 OK [http://localhost/tabs/new]
+
+
+Processing TabsController#create (for 127.0.0.1 at 2010-07-31 17:29:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"7cbb815271375c1428284419da647a58efd3bf71", "tab"=>{"artist"=>"Otgoo", "title"=>"Гитарын ду\321\203", "tag"=>"otgoo, mongolia", "user_id"=>"1", "tab"=>"Artist: Otgoo\r\nTitle: Gitariin duu\r\nTabbed by: Trueman\r\n\r\n-----------------------------------------------\r\nJinken ungunuus hagas ungu door bgaa!  Capo 1\r\n-----------------------------------------------\r\n\r\nIntro:  D A Bm G\r\n\r\nD       A         Bm     G\r\nGitaraa bariad bi duulah durtai\r\nD               A                 Bm           A     \r\nGantsaaraa bish and naizuudtaigaa bur ch duulah durtai\r\nD           A          Bm         G\r\nUtas mod ne muudsan ch ene banzan guitar\r\nD            A            Bm           A  \r\nUyangalag bas hugjiltei egshiglehii ne yaana\r\n\r\n\r\nChamaig bi bariad taizan deer duulahgui ch\r\nChamaig bi baihgui bol gertee duulj chadahgui\r\nAz jargal baysal belegleh chi minii minii and\r\nAmidrald gantshan oldoh zaluu nasnii dursamj\r\n\r\nD        A       Bm       G\r\nNadtai hamtdaa guitartai duulaach\r\nD        A        Bm       A\r\nNadtai guitartai hamtdaa duulaach\r\nD    A    Bm     G\r\nNa nara na na nara naa\r\nD       A        Bm\r\nNa nara na nara naaaaaaa\r\n\r\nChamaig bi bariad taizan deer duulahgui ch\r\nChamaig bi baihgui bol gertee duulj chadahgui\r\nAz jargal baysal belegleh chi minii minii and\r\nAmidrald gantshan oldoh zaluu nasnii dursamj\r\n\r\nGitaraa bariad bi duulah durtai\r\nGantsaaraa bish and naizuudtaigaa bur ch duulah durtai\r\nUtas mod ne muudsan ch ene banzan guitar\r\nUyangalag bas hugjiltei egshiglehii ne yaana\r\n\r\nNadtai hamtdaa guitartai duulaach\r\nNadtai guitartai hamtdaa duulaach\r\n\r\n\r\nNa nara na na nara naa\r\nNa nara na nara naaaaaaa"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mTab Create (0.4ms)[0m   [0;1mINSERT INTO `tabs` (`artist`, `created_at`, `title`, `updated_at`, `tag`, `user_id`, `tab`) VALUES('Otgoo', '2010-07-31 09:29:57', 'Гитарын дуу', '2010-07-31 09:29:57', 'otgoo, mongolia', 1, 'Artist: Otgoo\r\nTitle: Gitariin duu\r\nTabbed by: Trueman\r\n\r\n-----------------------------------------------\r\nJinken ungunuus hagas ungu door bgaa! Capo 1\r\n-----------------------------------------------\r\n\r\nIntro: D A Bm G\r\n\r\nD A Bm G\r\nGitaraa bariad bi duulah durtai\r\nD A Bm A \r\nGantsaaraa bish and naizuudtaigaa bur ch duulah durtai\r\nD A Bm G\r\nUtas mod ne muudsan ch ene banzan guitar\r\nD A Bm A \r\nUyangalag bas hugjiltei egshiglehii ne yaana\r\n\r\n\r\nChamaig bi bariad taizan deer duulahgui ch\r\nChamaig bi baihgui bol gertee duulj chadahgui\r\nAz jargal baysal belegleh chi minii minii and\r\nAmidrald gantshan oldoh zaluu nasnii dursamj\r\n\r\nD A Bm G\r\nNadtai hamtdaa guitartai duulaach\r\nD A Bm A\r\nNadtai guitartai hamtdaa duulaach\r\nD A Bm G\r\nNa nara na na nara naa\r\nD A Bm\r\nNa nara na nara naaaaaaa\r\n\r\nChamaig bi bariad taizan deer duulahgui ch\r\nChamaig bi baihgui bol gertee duulj chadahgui\r\nAz jargal baysal belegleh chi minii minii and\r\nAmidrald gantshan oldoh zaluu nasnii dursamj\r\n\r\nGitaraa bariad bi duulah durtai\r\nGantsaaraa bish and naizuudtaigaa bur ch duulah durtai\r\nUtas mod ne muudsan ch ene banzan guitar\r\nUyangalag bas hugjiltei egshiglehii ne yaana\r\n\r\nNadtai hamtdaa guitartai duulaach\r\nNadtai guitartai hamtdaa duulaach\r\n\r\n\r\nNa nara na na nara naa\r\nNa nara na nara naaaaaaa')[0m
+  [4;35;1mSQL (59.0ms)[0m   [0mCOMMIT[0m
+Redirected to #<Tab:0xb64c6a9c>
+Completed in 80ms (DB: 61) | 302 Found [http://localhost/tabs]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-07-31 17:29:57) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.5ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 2) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 50ms (View: 35, DB: 3) | 200 OK [http://localhost/tabs/2]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:30:08) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.3ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 46ms (View: 34, DB: 3) | 200 OK [http://localhost/tabs]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:38:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 29, DB: 3) | 200 OK [http://localhost/tabs]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:38:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 26, DB: 2) | 200 OK [http://localhost/tabs]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-07-31 17:39:00) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/tabs
+Rendering user_sessions/new
+Completed in 134ms (View: 13, DB: 1) | 200 OK [http://localhost/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 17:39:09) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"xacaa", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"7cbb815271375c1428284419da647a58efd3bf71", "controller"=>"user_sessions"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'xacaa') LIMIT 1[0m
+Cookie set: user_credentials=087dd881baf0ae5bba7eaf009dab8793194634eddd5ba4a1aee2ec20bd9ad5f84601fe0a854253f185253d910425ec992e585412f271731c7687ad73f623c6d9%3A%3A1; path=/
+Redirected to http://localhost:3000/
+Completed in 29ms (DB: 1) | 302 Found [http://localhost/user_sessions]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:39:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 52ms (View: 41, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#edit (for 127.0.0.1 at 2010-07-31 17:39:16) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mTab Load (0.4ms)[0m   [0;1mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 1) [0m
+Rendering template within layouts/tabs
+Rendering tabs/edit
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 51ms (View: 41, DB: 1) | 200 OK [http://localhost/tabs/1/edit]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-07-31 17:39:20) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Cookie set: user_credentials=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 27ms (DB: 1) | 302 Found [http://localhost/logout]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:39:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.6ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 146ms (View: 134, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing TabsController#edit (for 127.0.0.1 at 2010-07-31 17:39:24) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 1) [0m
+Rendering template within layouts/tabs
+Rendering tabs/edit
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 54ms (View: 41, DB: 2) | 200 OK [http://localhost/tabs/1/edit]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:39:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 29, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:40:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 29, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:40:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 26, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:40:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 147ms (View: 137, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:40:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 44ms (View: 30, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:42:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 27, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#edit (for 127.0.0.1 at 2010-07-31 17:42:59) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"tabs"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/
+Completed in 21ms (DB: 1) | 302 Found [http://localhost/tabs/1/edit]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 17:42:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 33, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-07-31 18:07:51) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/tabs
+Rendering user_sessions/new
+Completed in 132ms (View: 113, DB: 1) | 200 OK [http://localhost/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-07-31 18:07:56) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"xacaa", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"7cbb815271375c1428284419da647a58efd3bf71", "controller"=>"user_sessions"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'xacaa') LIMIT 1[0m
+Cookie set: user_credentials=087dd881baf0ae5bba7eaf009dab8793194634eddd5ba4a1aee2ec20bd9ad5f84601fe0a854253f185253d910425ec992e585412f271731c7687ad73f623c6d9%3A%3A1; path=/
+Redirected to http://localhost:3000/
+Completed in 31ms (DB: 1) | 302 Found [http://localhost/user_sessions]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 18:07:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 53ms (View: 41, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#destroy (for 127.0.0.1 at 2010-07-31 18:08:21) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"7cbb815271375c1428284419da647a58efd3bf71", "id"=>"2", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mTab Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.4ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTab Destroy (23.9ms)[0m   [0mDELETE FROM `tabs` WHERE `id` = 2[0m
+  [4;36;1mSQL (71.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tabs
+Completed in 133ms (DB: 99) | 302 Found [http://localhost/tabs/2]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 18:08:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.4ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Completed in 47ms (View: 36, DB: 3) | 200 OK [http://localhost/tabs]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-07-31 18:08:24) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+Cookie set: user_credentials=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 25ms (DB: 1) | 302 Found [http://localhost/logout]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-07-31 18:08:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 50ms (View: 35, DB: 2) | 200 OK [http://localhost/]

@@ -5,7 +5,8 @@ Gtree бол Монголын гитар сонирхогчдын нээлттэ
 Сайт нь social механизмыг ашиглан хэн ч нээлттэйгээр хүссэн гитар таб, кордоо оруулах, түүнийгээ түгээх, найз нөхөдтэйгөө нийлж нөгжүүлэх, үүсгэх, засварлах гэх зэрэг боломжуудаар хангахыг зорьж байна.
 
 Ашигласан системүүд:
-- Ruby
-- Ruby on Rails
-- Mongrel
-- MySQL
+- Ruby (programming language)
+- Ruby on Rails (web app framework on ruby)
+- Mongrel (server)
+- MySQL (database)
+- Blueprint (CSS framework)
