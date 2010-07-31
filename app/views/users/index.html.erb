@@ -1,24 +1,28 @@
 <h1>Listing users</h1>
 
 <table>
-  <tr>
+  <tr bgcolor="gray">
     <th>Username</th>
     <th>Email</th>
-    <th>Password</th>
+    <th></th><th></th>
   </tr>
 
 <% for user in @users %>
-  <tr>
-    <td><%=h user.username %></td>
+  <tr bgcolor="<%= cycle('white', '#ccc') %>">
+    <td><h2><%= link_to user.username, user %></h2></td>
     <td><%=h user.email %></td>
-    <td><%=h user.password %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% if current_user %>
+      <% if current_user.id == user.id %>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
+      <% else %>
+        <td></td><td></td>
+      <% end %>
+    <% else %>
+      <td></td><td></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
 <br />
-
-<%= link_to 'New user', new_user_path %>

@@ -8,11 +8,8 @@
   <%=h @user.email %>
 </p>
 
-<p>
-  <b>Password:</b>
-  <%=h @user.password %>
-</p>
-
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<% if current_user %>
+  <% if current_user.id == @user.id %>
+    <%= link_to 'Edit profile', edit_user_path(:current) %>
+  <% end %>
+<% end %>

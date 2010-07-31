@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  # GET /users
+ layout "tabs"
+
+ # GET /users
   # GET /users.xml
   def index
     @users = User.find(:all)
@@ -13,7 +15,11 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.xml
   def show
-    @user = User.find(params[:id])
+    if params[:id] == 'current' 
+      @user = current_user
+    else
+      @user = User.find(params[:id])
+    end
 
     respond_to do |format|
       format.html # show.html.erb
@@ -24,11 +30,16 @@ class UsersController < ApplicationController
   # GET /users/new
   # GET /users/new.xml
   def new
-    @user = User.new
+    if current_user
+      flash[:warning] = "<strong>#{current_user.username}</strong>! You are already logged in, because you can do this after logged out"
+      redirect_to root_url
+    else
+      @user = User.new
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render :xml => @user }
+      respond_to do |format|
+        format.html # new.html.erb
+        format.xml  { render :xml => @user }
+      end
     end
   end
 

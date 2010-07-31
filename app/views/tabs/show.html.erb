@@ -14,12 +14,16 @@
 
 <p>
   <b>User:</b>
-  <%=h @tab.user_id %>
+  <%=h User.find(@tab.user_id).username %>
 </p>
 
 <pre>
   <%= @tab.tab %>
 </pre>
 
-<%= link_to 'Edit', edit_tab_path(@tab) %> |
+<% if current_user %>
+  <% if current_user.id == @tab.id %>
+    <%= link_to 'Edit', edit_tab_path(@tab) %> |
+  <% end %>
+<% end %>
 <%= link_to 'Back', tabs_path %>
