@@ -44,7 +44,7 @@ class UsersController < ApplicationController
 
     if @user.save
       flash[:notice] = 'Registration successful.'
-      redirect_to tabs_url
+      redirect_to root_url
     else
       render :action => 'new'
     end
@@ -56,7 +56,7 @@ class UsersController < ApplicationController
     @user = current_user
     if @user.update_attributes(params[:user])
       flash[:notice] = 'Successfully updated profile.'
-      redirect_to tabs_url
+      redirect_to root_url
     else
       render :action => 'edit'
     end

@@ -1,4 +1,6 @@
 class UserSessionsController < ApplicationController
+	layout "tabs"
+
   # GET /user_sessions
   # GET /user_sessions.xml
   def index
@@ -43,7 +45,7 @@ class UserSessionsController < ApplicationController
     @user_session = UserSession.new(params[:user_session])
     if @user_session.save
       flash[:notice] = 'Successfully logged in.'
-      redirect_to tabs_url
+      redirect_to root_url
     else
       render :action => 'new'
     end
@@ -72,6 +74,6 @@ class UserSessionsController < ApplicationController
     @user_session = UserSession.find
     @user_session.destroy
     flash[:notice] = "Successfully logged out"
-    redirect_to tabs_url
+    redirect_to root_url
   end
 end
