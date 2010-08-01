@@ -43,3 +43,5 @@ production:
   username: root
   password: 
   socket: /var/run/mysqld/mysqld.sock
+
+# Blah blah blah hahahah This line is test for .gitignore

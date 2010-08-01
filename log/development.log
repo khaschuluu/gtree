@@ -19543,3 +19543,261 @@ Rendering tabs/index
   [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
   [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
 Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-08-01 16:05:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Completed in 54ms (View: 41, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-08-01 16:05:44) [GET]
+  Parameters: {"action"=>"show", "id"=>"11", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 11) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Completed in 133ms (View: 121, DB: 2) | 200 OK [http://localhost/tabs/11]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-08-01 16:05:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"users"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Rendering template within layouts/tabs
+Rendering users/show
+Completed in 34ms (View: 15, DB: 1) | 200 OK [http://localhost/users/3]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-08-01 16:06:00) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/tabs
+Rendering user_sessions/new
+Completed in 35ms (View: 13, DB: 1) | 200 OK [http://localhost/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-08-01 16:06:06) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"xacaa", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"3eda792f39c88fa2aff547b7a06111f63d27016e", "controller"=>"user_sessions"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'xacaa') LIMIT 1[0m
+Cookie set: user_credentials=2cb3950d97f59498f0ffe1a01c9a37ba02f49f46219e2e942ecfac93215eb37d838b1d4e5663ecfaa4c097c1abdd28bbb8395a31d3d4be1f2655a0007f3690df%3A%3A3; path=/
+Redirected to http://localhost:3000/
+Completed in 259ms (DB: 2) | 302 Found [http://localhost/user_sessions]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-08-01 16:06:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.2ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+Completed in 61ms (View: 49, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing TabsController#new (for 127.0.0.1 at 2010-08-01 16:06:49) [POST]
+  Parameters: {"action"=>"new", "authenticity_token"=>"3eda792f39c88fa2aff547b7a06111f63d27016e", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+Rendering template within layouts/tabs
+Rendering tabs/new
+Completed in 48ms (View: 14, DB: 2) | 200 OK [http://localhost/tabs/new]
+
+
+Processing TabsController#create (for 127.0.0.1 at 2010-08-01 16:07:41) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"3eda792f39c88fa2aff547b7a06111f63d27016e", "controller"=>"tabs", "tab"=>{"artist"=>"Нисвани\321\201", "title"=>"Намайг а\320\262", "tag"=>"Нисванис, Nisvanis, Mongolia, Монгол, рок, rock", "tab"=>"Artist: Nisvanis \r\nTitle: Namaig av\r\nTabbed by: Mamzi\r\n\r\n\r\n\r\n\r\nBb                 \r\nMongo buhniig shiideh boljee\r\nF\r\nMoroodloo ch bi bayjij chadahgui\r\nBb\r\nHair setgel mongoor oldoh boljee\r\nF\r\nHaigaad ch bi ehnertei bolj chadahgui\r\n\r\n\r\nEb            Bb\r\nDuulan bi hair zarlaj baina\r\nEb            Bb\r\nDurtai uneeree namaig aw\r\nEb                Bb\r\nHuuhnuudee ohiduudaa namaig aw\r\nF              Eb\r\nHussen uneeree aw  \r\n    Bb      F#    G#    Bb\r\noo oo oo  oo oo   oo   namaig aw\r\n\r\n\r\nBb\r\nManai naizuud ehner awsan \r\nF\r\nZarim ne odoo jiremsen gesen\r\nBb\r\nHarin bi chine gantsaar uldsen\r\nF\r\nHair setgel butelgui heweeree\r\n\r\n\r\nEb            Bb\r\nDuulan bi hair zarlaj baina\r\nEb            Bb\r\nDurtai uneeree namaig aw\r\nEb                Bb\r\nHuuhnuudee ohiduudaa namaig aw\r\nF              Eb\r\nHussen uneeree aw  \r\n    Bb      F#    G#    Bb\r\noo oo oo  oo oo   oo   namaig aw\r\n\r\nBb\r\nBayjij bgaad ehner awah bodoltoi\r\nF\r\nAwsan hoinoo aytai amidrah sanaatai\r\nBb\r\nHuwiin amidral mine ineed bayslaar duuren\r\nF\r\nminii amidral baigaa ne erdoo ene\r\n\r\n\r\nEb            Bb\r\nDuulan bi hair zarlaj baina\r\nEb            Bb\r\nDurtai uneeree namaig aw\r\nEb                Bb\r\nHuuhnuudee ohiduudaa namaig aw\r\nF              Eb\r\nHussen uneeree aw  \r\n    Bb      F#    G#    Bb\r\noo oo oo  oo oo   oo   namaig aw\r\n\r\n\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n        enjoy :D\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mTab Create (0.7ms)[0m   [0;1mINSERT INTO `tabs` (`artist`, `created_at`, `title`, `updated_at`, `tag`, `user_id`, `tab`) VALUES('Нисванис', '2010-08-01 08:07:41', 'Намайг ав', '2010-08-01 08:07:41', 'Нисванис, Nisvanis, Mongolia, Монгол, рок, rock', 3, 'Artist: Nisvanis \r\nTitle: Namaig av\r\nTabbed by: Mamzi\r\n\r\n\r\n\r\n\r\nBb \r\nMongo buhniig shiideh boljee\r\nF\r\nMoroodloo ch bi bayjij chadahgui\r\nBb\r\nHair setgel mongoor oldoh boljee\r\nF\r\nHaigaad ch bi ehnertei bolj chadahgui\r\n\r\n\r\nEb Bb\r\nDuulan bi hair zarlaj baina\r\nEb Bb\r\nDurtai uneeree namaig aw\r\nEb Bb\r\nHuuhnuudee ohiduudaa namaig aw\r\nF Eb\r\nHussen uneeree aw \r\n Bb F# G# Bb\r\noo oo oo oo oo oo namaig aw\r\n\r\n\r\nBb\r\nManai naizuud ehner awsan \r\nF\r\nZarim ne odoo jiremsen gesen\r\nBb\r\nHarin bi chine gantsaar uldsen\r\nF\r\nHair setgel butelgui heweeree\r\n\r\n\r\nEb Bb\r\nDuulan bi hair zarlaj baina\r\nEb Bb\r\nDurtai uneeree namaig aw\r\nEb Bb\r\nHuuhnuudee ohiduudaa namaig aw\r\nF Eb\r\nHussen uneeree aw \r\n Bb F# G# Bb\r\noo oo oo oo oo oo namaig aw\r\n\r\nBb\r\nBayjij bgaad ehner awah bodoltoi\r\nF\r\nAwsan hoinoo aytai amidrah sanaatai\r\nBb\r\nHuwiin amidral mine ineed bayslaar duuren\r\nF\r\nminii amidral baigaa ne erdoo ene\r\n\r\n\r\nEb Bb\r\nDuulan bi hair zarlaj baina\r\nEb Bb\r\nDurtai uneeree namaig aw\r\nEb Bb\r\nHuuhnuudee ohiduudaa namaig aw\r\nF Eb\r\nHussen uneeree aw \r\n Bb F# G# Bb\r\noo oo oo oo oo oo namaig aw\r\n\r\n\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n enjoy :D\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')[0m
+  [4;35;1mSQL (55.2ms)[0m   [0mCOMMIT[0m
+Redirected to #<Tab:0xb650b4bc>
+Completed in 96ms (DB: 59) | 302 Found [http://localhost/tabs]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-08-01 16:07:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"12", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mTab Load (0.4ms)[0m   [0mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 12) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+Completed in 59ms (View: 45, DB: 3) | 200 OK [http://localhost/tabs/12]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-08-01 16:07:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.4ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Completed in 83ms (View: 70, DB: 3) | 200 OK [http://localhost/tabs]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2010-08-01 16:07:51) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+Cookie set: user_credentials=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 28ms (DB: 2) | 302 Found [http://localhost/logout]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-08-01 16:07:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.2ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Completed in 48ms (View: 35, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-08-01 16:07:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/tabs
+Rendering user_sessions/new
+Completed in 34ms (View: 14, DB: 1) | 200 OK [http://localhost/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-08-01 16:08:00) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"username"=>"aacax", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"3eda792f39c88fa2aff547b7a06111f63d27016e", "controller"=>"user_sessions"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.username) = 'aacax') LIMIT 1[0m
+Cookie set: user_credentials=d97223f05c6c83fe9523e035a97fc3410ce225e48838830fbfe246f5d006ae576738f8d7d4167c479733ca2c4b7ab2ed570c3b8290b6d8e79b37c3294e54b5bb%3A%3A2; path=/
+Redirected to http://localhost:3000/
+Completed in 27ms (DB: 1) | 302 Found [http://localhost/user_sessions]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-08-01 16:08:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTab Load (0.3ms)[0m   [0;1mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;35;1mTab Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+Completed in 60ms (View: 45, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing TabsController#new (for 127.0.0.1 at 2010-08-01 16:08:03) [POST]
+  Parameters: {"action"=>"new", "authenticity_token"=>"3eda792f39c88fa2aff547b7a06111f63d27016e", "controller"=>"tabs"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;36;1mTab Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+Rendering template within layouts/tabs
+Rendering tabs/new
+Completed in 53ms (View: 15, DB: 3) | 200 OK [http://localhost/tabs/new]
+
+
+Processing TabsController#create (for 127.0.0.1 at 2010-08-01 16:08:53) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"3eda792f39c88fa2aff547b7a06111f63d27016e", "controller"=>"tabs", "tab"=>{"artist"=>"Madness", "title"=>"Хотын гудам\320\266", "tag"=>"Madness, Мэднэс, Маднэс, Монгол, Mongolian", "tab"=>"Artist: Madness \r\nTitle:  hotiin gudamj\r\nTabbed by: Trueman\r\n\r\nIntro:   A    F#m   Bm    E\r\n\r\n\r\n\r\nA               F#m\r\nNudend dulaahan mongol busguichuud \r\nE                 A\r\nHotiin gudamjaar alhalnaa \r\n\r\nbidni mongoliin taiwan amidral \r\nhotiin uamjaar urnusuur\r\n\r\n\r\n       D                   F#m       \r\nHairiin duu aylan chamtai zugaalah\r\n     Bm        E\r\nMinii hotiin gudamj\r\n\r\nZoolon salhiar namaig iveen\r\nDandaa az jargaltai alhalnaa\r\n\r\nNaran misheesen namuuhan dor \r\nnamaig chamtai uchruulsan\r\ntsewerhen hotiin gudamj talbaid \r\nhumuus buhen jargaltai\r\n\r\nDorwon uuliin hormoid nalaian \r\nminii hotiin baraa\r\nholiin holoos namaig daguulan\r\nuurdiin az jargal amssan\r\n\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n    Have fun! :D\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTab Create (0.4ms)[0m   [0mINSERT INTO `tabs` (`artist`, `created_at`, `title`, `updated_at`, `tag`, `user_id`, `tab`) VALUES('Madness', '2010-08-01 08:08:53', 'Хотын гудамж', '2010-08-01 08:08:53', 'Madness, Мэднэс, Маднэс, Монгол, Mongolian', 2, 'Artist: Madness \r\nTitle: hotiin gudamj\r\nTabbed by: Trueman\r\n\r\nIntro: A F#m Bm E\r\n\r\n\r\n\r\nA F#m\r\nNudend dulaahan mongol busguichuud \r\nE A\r\nHotiin gudamjaar alhalnaa \r\n\r\nbidni mongoliin taiwan amidral \r\nhotiin uamjaar urnusuur\r\n\r\n\r\n D F#m \r\nHairiin duu aylan chamtai zugaalah\r\n Bm E\r\nMinii hotiin gudamj\r\n\r\nZoolon salhiar namaig iveen\r\nDandaa az jargaltai alhalnaa\r\n\r\nNaran misheesen namuuhan dor \r\nnamaig chamtai uchruulsan\r\ntsewerhen hotiin gudamj talbaid \r\nhumuus buhen jargaltai\r\n\r\nDorwon uuliin hormoid nalaian \r\nminii hotiin baraa\r\nholiin holoos namaig daguulan\r\nuurdiin az jargal amssan\r\n\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n Have fun! :D\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')[0m
+  [4;36;1mSQL (54.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to #<Tab:0xb663b3a0>
+Completed in 94ms (DB: 57) | 302 Found [http://localhost/tabs]
+
+
+Processing TabsController#show (for 127.0.0.1 at 2010-08-01 16:08:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"13", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `tabs`[0m
+  [4;36;1mTab Load (0.4ms)[0m   [0;1mSELECT * FROM `tabs` WHERE (`tabs`.`id` = 13) [0m
+Rendering template within layouts/tabs
+Rendering tabs/show
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+Completed in 56ms (View: 43, DB: 3) | 200 OK [http://localhost/tabs/13]
+
+
+Processing TabsController#index (for 127.0.0.1 at 2010-08-01 16:08:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"tabs"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTab Load (0.4ms)[0m   [0mSELECT * FROM `tabs` [0m
+Rendering template within layouts/tabs
+Rendering tabs/index
+  [4;36;1mTab Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `tabs`[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) [0m
+Completed in 166ms (View: 154, DB: 3) | 200 OK [http://localhost/]
