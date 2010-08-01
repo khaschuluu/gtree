@@ -43,3 +43,5 @@ production:
   username: root
   password: 
   socket: /var/run/mysqld/mysqld.sock
+
+# This is line for test. This file's name in .gitignore file
