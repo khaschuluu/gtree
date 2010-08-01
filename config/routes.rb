@@ -3,6 +3,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.login "login", :controller => "user_sessions", :action => "new"
   map.logout "logout", :controller => "user_sessions", :action => "destroy"
+  
+  map.user_tab "user_tab", :controller => "tabs", :action => "index_user"
 
   map.resources :user_sessions
 

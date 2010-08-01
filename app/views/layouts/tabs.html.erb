@@ -18,6 +18,7 @@
 				<%= link_to image_tag("header.png"), root_url %> |
 				<% if current_user %>
 				  <%= link_to "Profile", user_path(:current) %> |
+                                  <%= link_to "My tabs", user_tab_path %> |
 				  <strong><%= current_user.username %></strong>
 				  (<%= link_to "Logout", logout_path %>)
 				<% else %>
@@ -27,7 +28,7 @@
 			</div>
 
 			<% flash.each do |key, msg| %>
-			  <div class="span-24 border">
+			  <div class="span-24">
 				  <div class="<%= key %>">
 					<%= msg %>
 				  </div>

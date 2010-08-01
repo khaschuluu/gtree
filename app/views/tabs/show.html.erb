@@ -1,21 +1,13 @@
-<p>
-  <h1><%=h @tab.title %></h1>
-</p>
+<h1><%=h @tab.title %></h1>
 
-<p>
-  <b>Artist:</b>
-  <%=h @tab.artist %>
-</p>
-
-<p>
-  <b>Tag:</b>
-  <%=h @tab.tag %>
-</p>
-
-<p>
-  <b>User:</b>
-  <%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %>
-</p>
+<b>Artist:</b>
+<%=h @tab.artist %>
+<br />
+<b>Tag:</b>
+<%=h @tab.tag %>
+<br />
+<b>User:</b>
+<%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %>
 
 <pre>
   <%= @tab.tab %>

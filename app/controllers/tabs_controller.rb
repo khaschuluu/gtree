@@ -10,14 +10,17 @@ class TabsController < ApplicationController
     end
   end
 
-  # GET /tabs/user/id
-  # GET /tabs/user/id.xml
   def index_user
-    @tabs = Tab.find(User.find(params[:id]))
+    if current_user
+      @tabs = current_user.tabs
 
-    respond_to do |format|
-      format.html #index_user.html.erb
-      format.xml { render :xml => @tabs }
+      respond_to do |format|
+        format.html
+        format.xml { render :xml => @tabs }
+      end
+    else
+      flash[:notice] = 'Premission denied! You can do this after logged in'
+      redirect_to root_url
     end
   end
 
