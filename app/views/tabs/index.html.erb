@@ -14,7 +14,7 @@
     <td><h2><%= link_to tab.title, tab %></h2></td>
     <td><%=h tab.artist %></td>
     <td><%=h tab.tag %></td>
-    <td><%=h User.find(tab.user_id).username %></td>
+    <td><%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
     <% if current_user %>
       <% if current_user.id == tab.user_id %>
         <td><%= link_to 'Edit', edit_tab_path(tab) %></td>

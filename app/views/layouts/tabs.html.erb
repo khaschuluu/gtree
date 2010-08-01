@@ -2,35 +2,41 @@
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Tabs: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
-  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/screen.css" type="text/css" media="screen, projection">
-  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/print.css" type="text/css" media="print"> 
-  <!--[if lt IE 8]>
-    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
-  <![endif]-->
-</head>
-<body>
+	<head>
+	  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	  <title>Tabs: <%= controller.action_name %></title>
+	  <%= stylesheet_link_tag 'scaffold' %>
+	  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/screen.css" type="text/css" media="screen, projection">
+	  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/print.css" type="text/css" media="print"> 
+	  <!--[if lt IE 8]>
+		<link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+	  <![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="span-24">
+				<%= link_to image_tag("header.png"), root_url %> |
+				<% if current_user %>
+				  <%= link_to "Profile", user_path(:current) %> |
+				  <strong><%= current_user.username %></strong>
+				  (<%= link_to "Logout", logout_path %>)
+				<% else %>
+				  <%= link_to "Register", new_user_path %> |
+				  <%= link_to "Login", login_path %>
+				<% end %>
+			</div>
 
-<%= link_to "Home", root_url %> |
-<% if current_user %>
-  <%= link_to "Profile", user_path(:current) %> |
-  <strong><%= current_user.username %></strong>
-  (<%= link_to "Logout", logout_path %>)
-<% else %>
-  <%= link_to "Register", new_user_path %> |
-  <%= link_to "Login", login_path %>
-<% end %>
+			<% flash.each do |key, msg| %>
+			  <div class="span-24 border">
+				  <div class="<%= key %>">
+					<%= msg %>
+				  </div>
+			  </div>
+			<% end %>
 
-<% flash.each do |key, msg| %>
-  <div class="<%= key %>">
-    <%= msg %>
-  </div>
-<% end %>
-
-<%= yield  %>
-
-</body>
+			<div class="span-24">
+				<%= yield  %>
+			</div>
+		</div>
+	</body>
 </html>

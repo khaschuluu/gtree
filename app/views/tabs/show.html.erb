@@ -14,7 +14,7 @@
 
 <p>
   <b>User:</b>
-  <%=h User.find(@tab.user_id).username %>
+  <%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %>
 </p>
 
 <pre>

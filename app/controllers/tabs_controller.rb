@@ -10,6 +10,17 @@ class TabsController < ApplicationController
     end
   end
 
+  # GET /tabs/user/id
+  # GET /tabs/user/id.xml
+  def index_user
+    @tabs = Tab.find(User.find(params[:id]))
+
+    respond_to do |format|
+      format.html #index_user.html.erb
+      format.xml { render :xml => @tabs }
+    end
+  end
+
   # GET /tabs/1
   # GET /tabs/1.xml
   def show

@@ -76,12 +76,17 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.xml
   def destroy
-    @user = User.find(params[:id])
-    @user.destroy
+    if false
+      @user = current_user
+      @user.destroy
 
-    respond_to do |format|
-      format.html { redirect_to(users_url) }
-      format.xml  { head :ok }
+      respond_to do |format|
+        format.html { redirect_to(users_url) }
+        format.xml  { head :ok }
+      end
+    else
+      flash[:warning] = 'Premission denied!'
+      redirect_to root_url
     end
   end
 end
