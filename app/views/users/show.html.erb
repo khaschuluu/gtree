@@ -1,4 +1,8 @@
-<h1><%=h @user.username %></h1>
+<% if @user == current_user %>
+  <h1>Your profile</h1>
+<% else %>
+  <h1><%=h @user.username %></h1>
+<% end %>
 <p>
   <b>Username:</b>
   <%=h @user.username %>

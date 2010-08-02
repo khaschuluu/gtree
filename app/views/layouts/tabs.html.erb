@@ -15,13 +15,15 @@
 	<body>
 		<div class="container">
 			<div class="span-24">
-				<%= link_to image_tag("header.png"), root_url %> |
+				<%= link_to image_tag("header.png"), root_url %>
 				<% if current_user %>
-				  <%= link_to "Profile", user_path(:current) %> |
+				  <strong><%= link_to current_user.username, user_path(:current) %></strong> |
                                   <%= link_to "My tabs", user_tab_path %> |
-				  <strong><%= current_user.username %></strong>
-				  (<%= link_to "Logout", logout_path %>)
+				  <%= link_to 'Add tab', new_tab_path %> |
+                                  <%= link_to 'Users', users_path %> |
+				  <%= link_to "Logout", logout_path %>
 				<% else %>
+                                  <%= link_to 'Users', users_path %> |
 				  <%= link_to "Register", new_user_path %> |
 				  <%= link_to "Login", login_path %>
 				<% end %>
