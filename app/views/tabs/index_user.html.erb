@@ -6,7 +6,7 @@
     <th>Artist</th>
     <th>Tag</th>
     <th>User</th>
-    <th></th><th></th>
+    <th></th><th></th><th></th>
   </tr>
 
 <% for tab in @tabs %>
@@ -15,6 +15,7 @@
     <td><%=h tab.artist %></td>
     <td><%=h tab.tag %></td>
     <td><%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
+    <td><%= time_ago_in_words(tab.created_at) %> ago</td>
     <% if current_user %>
       <% if current_user.id == tab.user_id %>
         <td><%= link_to 'Edit', edit_tab_path(tab) %></td>

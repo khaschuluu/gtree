@@ -1,0 +1,18 @@
+<p>
+  <b>Tab:</b>
+  <%=h @comment.tab_id %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @comment.body %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%=h @comment.username %>
+</p>
+
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>

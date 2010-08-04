@@ -6,8 +6,7 @@
 <b>Tag:</b>
 <%=h @tab.tag %>
 <br />
-<b>User:</b>
-<%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %>
+Created by <%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %> from <%= time_ago_in_words(@tab.created_at) %> ago 
 
 <pre>
   <%= @tab.tab %>
@@ -18,4 +17,21 @@
     <%= link_to 'Edit', edit_tab_path(@tab) %> |
   <% end %>
 <% end %>
-<%= link_to 'Back', tabs_path %>
+
+<h2>Comments</h2>
+<div id="comments">
+  <%= render :partial => @tab.comments %>
+</div>
+
+<% form_for [@tab, Comment.new] do |f| %>
+  <p>
+    <%= f.label :body, "New comment" %><br />
+    <% if current_user %>
+      <%= f.text_field :username, {:value => current_user.username} %><br />
+    <% else %>
+      <%= f.text_field :username %><br />
+    <% end %>
+    <%= f.text_area :body %>
+  </p>
+  <p><%= f.submit "Add Comment" %></p>
+<% end %>
