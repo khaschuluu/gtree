@@ -11,27 +11,31 @@ Gtree бол Монголын гитар сонирхогчдын нээлттэ
 * Blueprint (CSS framework)
 
 # Github-тай холбох
-Github-ын талаар монгол хэл дээрх гарын авлагыг [http://wiki.limnux.net/wiki/Github][http://wiki.limnux.net/wiki/Github] хаягаас авна уу.
+Github-ын талаар монгол хэл дээрх гарын авлагыг http://wiki.limnux.net/wiki/Github хаягаас авна уу.
 Энэ системийг өөрийн сервер, үгүй бол тооцоолуур дээрээ ажиллуулахын тулд эхлээд энэ github/gtree агуулгаа тооцоолууртаа холбох хэрэгтэй. Ингэхийн тулд Github-ын гарын авлагын дагуу энэ агуулгыг fork хийнэ. Түүнийхээ дараа terminal нээгээд:
-'$ mkdir gtree'
-'$ cd gtree'
-'$ git init'
-'$ git remote add origin git@github.com:user_name/gtree.git' 
-'$ git pull origin master'
+ $ mkdir gtree
+ $ cd gtree
+ $ git init
+ $ git remote add origin git@github.com:user_name/gtree.git
+ $ git pull origin master
 Ийнхүү зөв холбосон бол ls тушаалын үр дүнд агуулах харагдах ёстой. Ингээд ажиллуулах алхамыг хийцгээе.
 
 # Ажиллуулах
-Ажиллуулахын тулд танд юуны түрүүнд дээрх *Ашигласан системүүд* сэдэв доторх бүх системүүд таны тооцоолуурт суусан байх шаардлагатай ба дараах алхмуудыг хийж хөрсийг бэлдэнэ.
+Ажиллуулахын тулд танд юуны түрүүнд дээрх Ашигласан системүүд сэдэв доторх бүх системүүд таны тооцоолуурт суусан байх шаардлагатай ба дараах алхмуудыг хийж хөрсийг бэлдэнэ.
+
 * Хэрэгцээт програмуудыг суулгах, хэрвээ суучихсан програм бол хэрэггүй. Мөн Ruby болон Ruby on Rails-ийг дээр заасан холбоосоор орж гарын авлагатай танилцаж, сулугах зааврын дагуу суулгана уу. Харин одоо terminal-аа нээгээд:
-'$ sudo apt-get install mysql' 
-'$ gem install mongrel' 
+ $ sudo apt-get install mysql
+ $ gem install mongrel
+
 * Үндсэн хөрс энд хүрээд бэлтгэгдэх ба одоо тохиргоонуудыг хийнэ.
 Хамгийн түрүүнд config/database.yml файлыг нээж development хэсгийн хамгийн доод талын хоёр мөрийг дараах байдлаар өөрчлөнө:
-'password: [энд mysql-ийн root нууц үг байна]'
-'host: localhost'
+ password: [энд mysql-ийн root нууц үг байна]
+ host: localhost
+
 За одоо баазаа үүсгэх ба дараах мөрийг terminal дээр өгнө:
-'$ rake db:create RAILS_ENV=\'development\''
-'$ rake db:migrate'
+ $ rake db:create RAILS_ENV='development'
+ $ rake db:migrate
+
 * Одоо бүх зүйл бэлэн болсон болохоор ажиллуулна:
-'$ ruby script/server'
+ $ ruby script/server
 Ингээд өөрийн http://localhost:3000 гээд ороод үз дэ. Хэрвээ бүх зүйл ном ёсоор болсон бол Gtree сайт маань ажиллаж байх болно.
