@@ -39,3 +39,14 @@ Github-ын талаар монгол хэл дээрх гарын авлагы�
 * Одоо бүх зүйл бэлэн болсон болохоор ажиллуулна:
  $ ruby script/server
 Ингээд өөрийн http://localhost:3000 гээд ороод үз дэ. Хэрвээ бүх зүйл ном ёсоор болсон бол Gtree сайт маань ажиллаж байх болно.
+
+
+Once your script is in place, edit `lib/github/markups.rb` and tell
+GitHub Markup about it. Again we look to [rest2html][r2hc] for
+guidance:
+
+    command(:rest2html, /re?st(.txt)?/)
+
+Here we're telling GitHub Markup of the existence of a `rest2html`
+command which should be used for any file ending in `rest`,
+`rst`, `rest.txt` or `rst.txt`. Any regular expression will do.
