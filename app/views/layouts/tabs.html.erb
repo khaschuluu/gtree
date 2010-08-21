@@ -6,6 +6,7 @@
 	  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	  <title>Tabs: <%= controller.action_name %></title>
 	  <%= stylesheet_link_tag 'scaffold' %>
+	  <%= javascript_include_tag 'tablature' %>
 	  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/screen.css" type="text/css" media="screen, projection">
 	  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/print.css" type="text/css" media="print"> 
 	  <!--[if lt IE 8]>
@@ -38,7 +39,7 @@
 			<% end %>
 
 			<div class="span-24">
-				<%= yield  %>
+				<%= yield %>
 			</div>
 		</div>
 	</body>
