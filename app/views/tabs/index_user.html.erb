@@ -1,11 +1,10 @@
-<h1>Listing your tabs</h1>
+<h1><%= image_tag current_user.gravatar_url(:size => 30) %> Listing your tabs</h1>
 
 <table>
   <tr bgcolor = "gray">
     <th>Title</th>
     <th>Artist</th>
     <th>Tag</th>
-    <th>User</th>
     <th></th><th></th><th></th>
   </tr>
 
@@ -14,7 +13,6 @@
     <td><h2><%= link_to tab.title, tab %></h2></td>
     <td><%=h tab.artist %></td>
     <td><%=h tab.tag %></td>
-    <td><%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
     <td><%= time_ago_in_words(tab.created_at) %> ago</td>
     <% if current_user %>
       <% if current_user.id == tab.user_id %>

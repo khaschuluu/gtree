@@ -4,6 +4,9 @@
   <h1><%=h @user.username %></h1>
 <% end %>
 <p>
+  <%= image_tag @user.gravatar_url %>
+</p>
+<p>
   <b>Username:</b>
   <%=h @user.username %>
 </p>

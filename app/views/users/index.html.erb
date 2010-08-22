@@ -9,7 +9,7 @@
 
 <% for user in @users %>
   <tr bgcolor="<%= cycle('white', '#ccc') %>">
-    <td><h2><%= link_to user.username, user %></h2></td>
+    <td><h2><%= image_tag user.gravatar_url(:size => 30) %><%= link_to user.username, user %></h2></td>
     <td><%=h user.email %></td>
     <% if current_user %>
       <% if current_user.id == user.id %>

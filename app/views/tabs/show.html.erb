@@ -6,7 +6,9 @@
 <b>Tag:</b>
 <%=h @tab.tag %>
 <br />
-Created by <%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %> from <%= time_ago_in_words(@tab.created_at) %> ago 
+<%= image_tag User.find(@tab.user_id).gravatar_url(:size => 50) %>
+<br />
+<%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %> from <%= time_ago_in_words(@tab.created_at) %> ago 
 
 <pre>
   <%= @tab.tab %>
