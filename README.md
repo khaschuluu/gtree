@@ -1,4 +1,4 @@
-Энэ нээлттэй системийн эх хувилбар [http://github.com/khaschuluu/gtree] дээр байгаа.
+Энэ нээлттэй системийн эх хувилбар [http://github.com/khaschuluu/gtree](gtree) дээр байгаа.
 
 Gtree-д тавтай морил
 ====================

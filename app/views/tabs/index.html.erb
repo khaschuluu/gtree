@@ -14,7 +14,7 @@
     <td><h2><%= link_to tab.title, tab %></h2></td>
     <td><%=h tab.artist %></td>
     <td><%=h tab.tag %></td>
-    <td><%= image_tag User.find(tab.user_id).gravatar_url(:size => 10) %><%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
+    <td><%= image_tag User.find(tab.user_id).gravatar_url(:size => 10), :alt => User.find(tab.user_id).username %> <%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
     <td><%= time_ago_in_words(tab.created_at) %> ago</td>
     <% if current_user %>
       <% if current_user.id == tab.user_id %>

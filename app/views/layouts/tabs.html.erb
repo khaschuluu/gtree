@@ -5,8 +5,10 @@
 	<head>
 	  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	  <title>Tabs: <%= controller.action_name %></title>
-	  <%= stylesheet_link_tag 'scaffold' %>
-	  <%= javascript_include_tag 'tablature' %>
+	  <!--<%= stylesheet_link_tag 'scaffold' %>-->
+	  <%= stylesheet_link_tag 'common' %>
+	  <!--<%= javascript_include_tag 'tablature' %>-->
+      <script language="JavaScript" src="http://github.com/khaschuluu/guitar_tab_editor/raw/master/tablature.js"></script>
 	  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/screen.css" type="text/css" media="screen, projection">
 	  <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/print.css" type="text/css" media="print"> 
 	  <!--[if lt IE 8]>
@@ -15,18 +17,25 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="span-24">
+			<div class="header span-24">
 				<%= link_to image_tag("header.png"), root_url %>
 				<% if current_user %>
-				  <strong><%= link_to current_user.username, user_path(:current) %></strong> |
-                                  <%= link_to "My tabs", user_tab_path %> |
-				  <%= link_to 'Add tab', new_tab_path %> |
-                                  <%= link_to 'Users', users_path %> |
-				  <%= link_to "Logout", logout_path %>
+				  <%= link_to image_tag("home.png"), root_url %>
+				  <%= link_to image_tag("add.png"), new_tab_path %>
+                  <%= link_to image_tag("my_tabs.png"), user_tab_path %>
+                  <%= link_to image_tag("users.png"), users_path %>
+                  <div class="right">
+					  <%= image_tag current_user.gravatar_url(:size => 25) %>
+					  <%= link_to current_user.username, user_path(:current) %>
+					  <%= link_to image_tag("profile.png"), edit_user_path(:current)  %>
+					  <%= link_to image_tag("logout.png"), logout_path %>
+				  </div>
 				<% else %>
-                                  <%= link_to 'Users', users_path %> |
-				  <%= link_to "Register", new_user_path %> |
-				  <%= link_to "Login", login_path %>
+				  <%= link_to image_tag("users.png"), users_path %>
+				  <%= link_to "Register", new_user_path %>
+				  <div class="right">
+						<%= link_to image_tag("login.png"), login_path %>
+				  </div>
 				<% end %>
 			</div>
 
@@ -38,8 +47,13 @@
 			  </div>
 			<% end %>
 
-			<div class="span-24">
+			<div class="mainContent">
 				<%= yield %>
+			</div>
+		</div>
+		<div class="exp_footer">
+			<div class="footer">
+			  <p>This is footer</p>
 			</div>
 		</div>
 	</body>
