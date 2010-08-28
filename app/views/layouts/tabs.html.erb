@@ -17,24 +17,25 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="header span-24">
+			<div class="header">
 				<%= link_to image_tag("header.png"), root_url %>
+				<%= link_to image_tag("home.png"), root_url, :title => "Home" %>
+                <%= link_to image_tag("users.png"), users_path, :title => "Users" %>
 				<% if current_user %>
-				  <%= link_to image_tag("home.png"), root_url %>
-				  <%= link_to image_tag("add.png"), new_tab_path %>
-                  <%= link_to image_tag("my_tabs.png"), user_tab_path %>
-                  <%= link_to image_tag("users.png"), users_path %>
+				  <%= link_to image_tag("add.png"), new_tab_path, :title => "Add tab" %>
+                  <%= link_to image_tag("my_tabs.png"), user_tab_path, :title => "My tabs" %>
                   <div class="right">
 					  <%= image_tag current_user.gravatar_url(:size => 25) %>
-					  <%= link_to current_user.username, user_path(:current) %>
-					  <%= link_to image_tag("profile.png"), edit_user_path(:current)  %>
-					  <%= link_to image_tag("logout.png"), logout_path %>
+					  <%= link_to current_user.username, user_path(:current), :title => "Profile" %>
+					  <%= link_to image_tag("profile.png"), edit_user_path(:current), :title => "Edit profile"  %>
+					  <%= link_to image_tag("logout.png"), logout_path, :title => "Logout" %>
 				  </div>
 				<% else %>
-				  <%= link_to image_tag("users.png"), users_path %>
-				  <%= link_to "Register", new_user_path %>
+				  <div style="border: 1px solid; display: inline; background-color: #D6D6D6; padding: 2px;">
+					<%= link_to "Register", new_user_path, :title => "Register" %>
+				  </div>
 				  <div class="right">
-						<%= link_to image_tag("login.png"), login_path %>
+						<%= link_to image_tag("login.png"), login_path, :title => "Login" %>
 				  </div>
 				<% end %>
 			</div>
