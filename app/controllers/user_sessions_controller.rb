@@ -1,6 +1,4 @@
 class UserSessionsController < ApplicationController
-  layout "tabs"
-
   before_filter :require_user, :only => :destroy
   
   def new
