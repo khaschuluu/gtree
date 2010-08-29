@@ -1,7 +1,5 @@
 class UsersController < ApplicationController
- layout "tabs"
-
- # GET /users
+  # GET /users
   # GET /users.xml
   def index
     @users = User.find(:all)
