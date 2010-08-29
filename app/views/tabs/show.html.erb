@@ -9,11 +9,11 @@
 <%= image_tag User.find(@tab.user_id).gravatar_url(:size => 50) %>
 <br />
 <%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %> from <%= time_ago_in_words(@tab.created_at) %> ago 
-
-<pre>
+<%= link_to_function "Show Text", "toggle_visibility('text')" %>
+<textarea id="text" style="display:none" readonly="readonly">
   <%= @tab.tab %>
-</pre>
-
+</textarea>
+<div id="preview"></div>
 <% if current_user %>
   <% if current_user.id == @tab.id %>
     <%= link_to 'Edit', edit_tab_path(@tab) %> |
@@ -37,3 +37,4 @@
   </p>
   <p><%= f.submit "Add Comment" %></p>
 <% end %>
+<%= javascript_tag "show_tab('text', 'preview')" %>
