@@ -22,7 +22,7 @@
 	<%= link_to image_tag("add.png"), new_tab_path, :title => "Add tab" %>
         <%= link_to image_tag("my_tabs.png"), user_tab_path, :title => "My tabs" %>
         <div class="right">
-	  <%= image_tag current_user.gravatar_url(:size => 25) %>
+	  <%= image_tag current_user.gravatar_url(:size => 25), :height => 25 %>
 	  <%= link_to current_user.username, user_path(:current), :title => "Profile" %>
 	  <%= link_to image_tag("profile.png"), edit_user_path(:current), :title => "Edit profile"  %>
 	  <%= link_to image_tag("logout.png"), logout_path, :title => "Logout" %>
