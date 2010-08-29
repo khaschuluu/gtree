@@ -1,6 +1,6 @@
 <h1>Login</h1>
 
-<% form_for(@user_session) do |f| %>
+<%= form_for(@user_session, :url => user_session_path) do |f| %>
   <%= f.error_messages %>
 
   <p>
