@@ -7,7 +7,6 @@ gem 'rails', '3.0.0.rc'
 gem 'mysql'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem "authlogic", :git => 'git://github.com/ochko/authlogic.git'
 gem "gravtastic", '>= 2.1.0'
 
 # Use unicorn as the web server
