@@ -1,28 +1,19 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <title><%= (@tab && @tab.title) ? @tab.title : 'Gtree' %></title>
-    
-    <%= stylesheet_link_tag 'blueprint/screen', :media => "screen, projection" %>
-    <%= stylesheet_link_tag 'blueprint/print', :media => "print" %>
+    <title>Tabs: <%= controller.action_name %></title>
     <%= stylesheet_link_tag 'common' %>
-
-    <%= javascript_include_tag "show_tab" %>
-    <%= javascript_include_tag "tablature" %>
-    <%= javascript_include_tag "application" %>
-    <%= csrf_meta_tag %>
+    <script language="JavaScript" src="http://github.com/khaschuluu/guitar_tab_editor/raw/master/tablature.js"></script>
+    <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/stylesheets/blueprint/blueprint/print.css" type="text/css" media="print" /> 
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection" />
     <![endif]-->
   </head>
   <body>
-<<<<<<< HEAD
-    <div class="container showgrid">
-=======
     <div class="container">
->>>>>>> 6bb39b5a31f384c640662aac7d0d5f0f36c53f89
       <div class="header">
 	<%= link_to image_tag("header.png"), root_url %>
 	<%= link_to image_tag("home.png"), root_url, :title => "Home" %>
@@ -32,7 +23,7 @@
         <%= link_to image_tag("my_tabs.png"), user_tab_path, :title => "My tabs" %>
         <div class="right">
 	  <%= image_tag current_user.gravatar_url(:size => 25), :height => 25 %>
-	  <%= link_to current_user.username, user_path(:current), :title => "Profile", :id=>"current_user" %>
+	  <%= link_to current_user.username, user_path(:current), :title => "Profile" %>
 	  <%= link_to image_tag("profile.png"), edit_user_path(:current), :title => "Edit profile"  %>
 	  <%= link_to image_tag("logout.png"), logout_path, :title => "Logout" %>
 	</div>
@@ -40,13 +31,6 @@
 	<div style="border: 1px solid; display: inline; background-color: #D6D6D6; padding: 2px;">
 	  <%= link_to "Register", new_user_path, :title => "Register" %>
 	</div>
-<<<<<<< HEAD
-      <% form_tag tabs_path, :method => 'get' do %>
-        <%= text_field_tag :search, params[:search] %>
-        <%= submit_tag "Search", :name => nil %>
-      <% end %>
-=======
->>>>>>> 6bb39b5a31f384c640662aac7d0d5f0f36c53f89
 	<div class="right">
 	  <%= link_to image_tag("login.png"), login_path, :title => "Login" %>
 	</div>
