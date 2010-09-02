@@ -2,7 +2,12 @@ class TabsController < ApplicationController
   # GET /tabs
   # GET /tabs.xml
   def index
-    @tabs = Tab.find(:all)
+    if params[:search]
+      @tabs = Tab.find(:all, :conditions => ['title LIKE ? OR tag LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%"])
+      # search use title or tag
+    else
+      @tabs = Tab.find(:all)
+    end
 
     respond_to do |format|
       format.html # index.html.erb
