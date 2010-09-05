@@ -18,11 +18,7 @@
     <![endif]-->
   </head>
   <body>
-<<<<<<< HEAD
-    <div class="container showgrid">
-=======
     <div class="container">
->>>>>>> 6bb39b5a31f384c640662aac7d0d5f0f36c53f89
       <div class="header">
 	<%= link_to image_tag("header.png"), root_url %>
 	<%= link_to image_tag("home.png"), root_url, :title => "Home" %>
@@ -40,13 +36,10 @@
 	<div style="border: 1px solid; display: inline; background-color: #D6D6D6; padding: 2px;">
 	  <%= link_to "Register", new_user_path, :title => "Register" %>
 	</div>
-<<<<<<< HEAD
       <% form_tag tabs_path, :method => 'get' do %>
         <%= text_field_tag :search, params[:search] %>
         <%= submit_tag "Search", :name => nil %>
       <% end %>
-=======
->>>>>>> 6bb39b5a31f384c640662aac7d0d5f0f36c53f89
 	<div class="right">
 	  <%= link_to image_tag("login.png"), login_path, :title => "Login" %>
 	</div>
