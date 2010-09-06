@@ -1,5 +1,8 @@
 <h1>Listing tabs</h1>
-
+<% form_tag tabs_path, :method => 'get' do %>
+	<%= text_field_tag :search, params[:search] %>
+	<%= submit_tag "Search", :name => nil %>
+<% end %>
 <table>
   <tr bgcolor = "gray">
     <th>Title</th>
