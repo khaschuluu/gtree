@@ -10,8 +10,8 @@ Gtree бол Монголын гитар сонирхогчдын нээлттэ
 Ашигласан системүүд
 -------------------
 
-* [Ruby (programming language)](http://wiki.limnux.net/wiki/Ruby)
-* [Ruby on Rails (web app framework on ruby)](http://wiki.limnux.net/wiki/Ruby_on_Rails)
+* [Ruby 1.8.7 (programming language)](http://wiki.limnux.net/wiki/Ruby)
+* [Ruby on Rails 3.0.0.rc (web app framework on ruby)](http://wiki.limnux.net/wiki/Ruby_on_Rails)
 * Mongrel (server)
 * MySQL (database)
 * Blueprint (CSS framework)
@@ -58,8 +58,8 @@ Git clone ашиглаж татах:
 
     $ unzip khaschuluu-gtree-xxxxxxx.zip
 
-Ажиллуулах
-----------
+Суулгах
+-------
 
 Ажиллуулахын тулд танд юуны түрүүнд дээрх Ашигласан системүүд сэдэв доторх бүх системүүд таны тооцоолуурт суусан байх шаардлагатай ба дараах алхмуудыг хийж хөрсийг бэлдэнэ.
 
@@ -79,16 +79,9 @@ Git clone ашиглаж татах:
 Үндсэн хөрс энд хүрээд бэлтгэгдэх ба одоо тохиргоонуудыг хийнэ.
 Хамгийн түрүүнд бааз болон log файлуудыг тохируулна. Энэ нь тухайн серверийн нууцлалын асуудал бөгөөд энэ файлаа тэр чигээр нь оруулбал алдаа болно. Зөв тохируулсаныхаа дараа тухайн файл болон хавтсуудаа [.gitignore](http://wiki.limnux.net/wiki/Git#.gitignore) ашиглан git-ээсээ нууна уу.
 
-    $ cd repo_folder_name/ # for example: cd gtree/
-    $ cp config/database.yml.conf config/database.yml
-    $ cp -r _log/ log/
+Үүний дараа config/database.yml файлыг үүсгэж тохируулна
 
-Үүний дараа config/database.yml файлыг нээж development хэсгийн хамгийн доод талын хоёр мөрийг дараах байдлаар өөрчлөнө:
-
-    password: [энд mysql-ийн root нууц үг байна]
-    host: localhost
-
-За одоо баазаа үүсгэх ба дараах мөрийг terminal дээр өгнө:
+За одоо баазаа үүсгэх ба дараах мөрийг terminal дээр өгнө, үгүй бол шууд MySQL дээрээ gtree_development гээд create хийсэн ч болно:
 
     $ rake db:create RAILS_ENV='development'
     $ rake db:migrate
@@ -102,6 +95,6 @@ Git clone ашиглаж татах:
 
 Одоо бүх зүйл бэлэн болсон болохоор ажиллуулна:
 
-    $ ruby script/server
+    $ rails server
 
 Ингээд өөрийн `http://localhost:3000` гээд ороод үз дэ. Хэрвээ бүх зүйл ном ёсоор болсон бол Gtree сайт маань ажиллаж байх болно.
