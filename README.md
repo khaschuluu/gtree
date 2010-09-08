@@ -70,7 +70,11 @@ Git clone ашиглаж татах:
     $ sudo apt-get install mysql
     $ gem install mongrel
 
-Мөн config/environment.rb файл дотор authlogic хэмээх нэвтрэлтийн нэмэлт багц зарласан ба үүнийг суулгахдаа:
+Мөн дараах нэмэлт багц зарласан:
+
+* Authlogic
+* Will_paginet
+* Gravtastic
 
     $ sudo rake gems:install
 

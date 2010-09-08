@@ -5,3 +5,4 @@ tmp/**/*
 Gemfile.lock
 config/database.yml
 config/deploy.rb
+*.swp

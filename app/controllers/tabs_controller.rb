@@ -2,12 +2,9 @@ class TabsController < ApplicationController
   # GET /tabs
   # GET /tabs.xml
   def index
-    if params[:search]
-      @tabs = Tab.find(:all, :conditions => ['title LIKE ? OR tag LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%"])
+      #@tabs = Tab.find(:all, :conditions => ['title LIKE ? OR tag LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%"])
       # search use title or tag
-    else
-      @tabs = Tab.find(:all)
-    end
+    @tabs = Tab.paginate(:per_page => 5, :page => params[:page], :conditions => ['title LIKE ? OR tag LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%"])
 
     respond_to do |format|
       format.html # index.html.erb

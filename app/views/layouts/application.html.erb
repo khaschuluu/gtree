@@ -20,11 +20,10 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="container showgrid">
-        <div class="span-24">
-			<div class="span-4"><%= link_to image_tag("header.png"), root_url, :title => "Logo" %></div>
-            <div class="span-20 last">
-            <div class="span-20 last"></div>
+		<div class="container">
+        <div class="span-24 header">
+		<div class="span-4"><%= link_to image_tag("header.png"), root_url, :title => "Logo" %></div>
+        <div class="span-20 last header_right">
         <% if current_user %>
             <div class="span-5">
         <% else %>
@@ -43,12 +42,12 @@
 			  <%= submit_tag "Search", :name => nil %>
 			<% end %>
             </div>
-            <div class="column"></div>
-            <div class="prepend-3 span-4">
+            <!--div class="column"></div-->
+            <div class="prepend-3 span-4 last">
 		    <%= image_tag current_user.gravatar_url(:size => 30), :height => 30, :width => 30 %>
 		    <%= link_to current_user.username, user_path(:current), :title => "Profile", :id=>"current_user" %>
             </div>
-		    <div class="span-1 last"><%= link_to image_tag("logout.png"), logout_path, :title => "Logout" %></div>
+		    <div class="span-1"><%= link_to image_tag("logout.png"), logout_path, :title => "Logout" %></div>
 		<% else %>
 			<%= image_tag 'search.png', :title => "Search" %>
             </div>
@@ -58,11 +57,11 @@
 			  <%= submit_tag "Search", :name => nil %>
 			<% end %>
             </div>
-            <div class="column"></div>
-            <div class="prepend-3 span-4">
+            <!--div class="column"></div-->
+            <div class="prepend-5 span-2 last">
 			<%= link_to "Register", new_user_path, :title => "Register" %>
             </div>
-            <div class="span-1 last"><%= link_to image_tag("login.png"), login_path, :title => "Login" %></div>
+            <div class="span-1"><%= link_to image_tag("login.png"), login_path, :title => "Login" %></div>
 		<% end %>
         </div>
         </div>

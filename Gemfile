@@ -6,6 +6,7 @@ gem 'rails', '3.0.0.rc'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'mysql'
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem "will_paginate", "~> 3.0.pre2"
 
 gem "gravtastic", '>= 2.1.0'
 
