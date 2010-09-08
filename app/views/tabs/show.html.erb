@@ -25,16 +25,13 @@
   <%= render :partial => @tab.comments %>
 </div>
 
+    <% if current_user %>
 <% form_for [@tab, Comment.new] do |f| %>
   <p>
     <%= f.label :body, "New comment" %><br />
-    <% if current_user %>
-      <%= f.text_field :username, {:value => current_user.username} %><br />
-    <% else %>
-      <%= f.text_field :username %><br />
-    <% end %>
     <%= f.text_area :body %>
   </p>
   <p><%= f.submit "Add Comment" %></p>
+<% end %>
 <% end %>
 <%= javascript_tag "show_tab('text', 'preview')" %>
