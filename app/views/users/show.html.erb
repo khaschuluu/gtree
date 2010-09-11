@@ -16,6 +16,10 @@
   <%=h @user.email %>
 </p>
 
+<p>
+  <%= link_to @user.username, tabs_path(:user_id => @user.id) %>
+</p>
+
 <% if current_user %>
   <% if current_user.id == @user.id %>
     <%= link_to 'Edit profile', edit_user_path(:current) %>

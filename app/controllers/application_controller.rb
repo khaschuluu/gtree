@@ -5,7 +5,14 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user, :current_user_session
 
+  before_filter :set_locale
+
   private
+
+  def set_locale
+    I18n.locale = params[:locale]
+  end
+
   def current_user_session
     return @current_user_session if defined?(@current_user_session)
     @current_user_session = UserSession.find

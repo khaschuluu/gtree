@@ -1,0 +1,58 @@
+mn:
+  home:
+    head:
+      logo: "Лого"
+      home: "Нүүр"
+      users: "Хэрэглэгчид"
+      my_tabs: "Миний табууд"
+      add_tab: "Таб нэмэх"
+      search: "Хайх"
+      profile: "Бүртгэл"
+      logout: "Гарах"
+      login: "Нэвтрэх"
+      register: "Бүртгүүлэх"
+    tab_list:
+      title: "Нэр"
+      artist: "Бүтээгч"
+      tag: "Таг"
+      user: "Нэмсэн"
+      created_at: "Үүссэн"
+    page_title:
+      tab_list: "Таб жагсаалт"
+      user_list: "Гишүүдийн жагсаалт" 
+  datetime:
+    distance_in_words:
+      half_a_minute: "хагас минут"
+      about_x_months:
+        one: "сарын"
+        other: "{{count}} сарын"
+      x_seconds:
+        one:   "1 секундын"
+        other: "{{count}} секундын"
+      less_than_x_minutes:
+        one:   "xэдхэн минутын"
+        other: "{{count}} минутын"
+      x_minutes:
+        one:   "1 минут"
+        other: "{{count}} минут"
+      about_x_hours:
+        one:   "цагийн"
+        other: "{{count}} цагийн"
+      x_days:
+        one:   "1 өдөр"
+        other: "{{count}} өдөр"
+      about_x_months:
+        one:   "1 өдрийн"
+        other: "{{count}} өдрийн"
+      x_months:
+        one:   "1 сар"
+        other: "{{count}} сар"
+      about_x_years:
+        one:   "жилийн"
+        other: "{{count}} жилийн"
+      over_x_years:
+        one:   "1 жил дээр"
+        other: "{{count}} жил дээр"
+      almost_x_years:
+        one:   "жил шахам"
+        other: "{{count}} жил шахам"

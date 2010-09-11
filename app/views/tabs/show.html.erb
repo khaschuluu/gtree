@@ -15,8 +15,8 @@
 </textarea>
 <div id="preview"></div>
 <% if current_user %>
-  <% if current_user.id == @tab.id %>
-    <%= link_to 'Edit', edit_tab_path(@tab) %> |
+  <% if current_user.id == @tab.user_id %>
+    <%= link_to 'Edit', edit_tab_path(@tab) %>
   <% end %>
 <% end %>
 

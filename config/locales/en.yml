@@ -2,4 +2,24 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  home:
+    head:
+      logo: "Logo"
+      home: "Home"
+      users: "Users"
+      my_tabs: "My tabs"
+      add_tab: "Add tab"
+      search: "Search"
+      profile: "Profile"
+      logout: "Logout"
+      login: "Login" 
+      register: "Register"
+    tab_list:
+      title: "Title"
+      artist: "Artist"
+      tag: "Tag"
+      user: "User"
+      created_at: "Created at"
+    page_title:
+      tab_list: "Tab list"
+      user_list: "User list"

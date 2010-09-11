@@ -2,27 +2,13 @@ class TabsController < ApplicationController
   # GET /tabs
   # GET /tabs.xml
   def index
-      #@tabs = Tab.find(:all, :conditions => ['title LIKE ? OR tag LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%"])
-      # search use title or tag
-    @tabs = Tab.paginate(:per_page => 5, :page => params[:page], :conditions => ['title LIKE ? OR tag LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%"])
+      @tabs = Tab.paginate :per_page => 10, :page => params[:page], 
+                           :conditions => ['(title LIKE ? OR tag LIKE ?) AND user_id LIKE ?', "%#{params[:search]}%", "%#{params[:search]}%", "%#{params[:user_id]}%"],
+                           :order => params[:order_by]
 
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @tabs }
-    end
-  end
-
-  def index_user
-    if current_user
-      @tabs = current_user.tabs
-
-      respond_to do |format|
-        format.html
-        format.xml { render :xml => @tabs }
-      end
-    else
-      flash[:notice] = 'Premission denied! You can do this after logged in'
-      redirect_to root_url
     end
   end
 

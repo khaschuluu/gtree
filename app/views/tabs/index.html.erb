@@ -1,11 +1,12 @@
-<h1>Listing tabs</h1>
-<table>
-  <tr bgcolor = "gray">
-    <th>Title</th>
-    <th>Artist</th>
-    <th>Tag</th>
-    <th>User</th>
-    <th></th><th></th><th></th>
+<h1><%= (t 'home.page_title.tab_list') %></h1>
+<table class="list">
+  <tr bgcolor="gray">
+    <th><%= link_to (t 'home.tab_list.title'), tabs_path(:order_by => 'title') %> v</th>
+    <th><%= link_to (t 'home.tab_list.artist'), tabs_path(:order_by => 'artist') %> v</th>
+    <th><%= link_to (t 'home.tab_list.tag'), tabs_path(:order_by => 'tag') %> v</th>
+    <th><%= (t 'home.tab_list.user') %></th>
+    <th><%= link_to (t 'home.tab_list.created_at'), tabs_path(:order_by => 'created_at') %> v</th>
+    <th></th><th></th>
   </tr>
 
 <% for tab in @tabs %>
@@ -13,7 +14,7 @@
     <td><%= link_to tab.title, tab %></td>
     <td><%=h tab.artist %></td>
     <td><%=h tab.tag %></td>
-    <td><%= image_tag User.find(tab.user_id).gravatar_url(:size => 20), :alt => User.find(tab.user_id).username, :height => 20 %> <%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
+    <td><%= image_tag User.find(tab.user_id).gravatar_url(:size => 20), :alt => "[avatar]", :height => 20 %> <%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
     <td><%= time_ago_in_words(tab.created_at) %> ago</td>
     <% if current_user %>
       <% if current_user.id == tab.user_id %>
