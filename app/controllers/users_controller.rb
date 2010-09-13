@@ -74,7 +74,8 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.xml
   def destroy
-    if false
+    #if params[:id] == 'current' || params[:id] == current_user.id
+    if true
       @user = current_user
       @user.destroy
 
@@ -84,7 +85,7 @@ class UsersController < ApplicationController
       end
     else
       flash[:warning] = 'Premission denied!'
-      redirect_to root_url
+      redirect_to edit_user_path(current_user)
     end
   end
 end

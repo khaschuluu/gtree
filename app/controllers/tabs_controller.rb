@@ -34,7 +34,7 @@ class TabsController < ApplicationController
         format.xml  { render :xml => @tab }
       end
     else
-      flash[:warning] = 'Premission denied! You\'ll can this after logged in! If you not registered, you can register now ;)'
+      flash[:warning] = (t'flash.premission_denied') + (t'flash.cant_add_tab')
       redirect_to root_url
     end
   end
@@ -45,7 +45,7 @@ class TabsController < ApplicationController
       if current_user.id == Tab.find(params[:id]).user_id
         @tab = Tab.find(params[:id])
       else
-        flash[:warning] = 'Premission denied!'
+        flash[:warning] = t'flash.premission_denied'
         redirect_to root_url
       end
     end
@@ -59,7 +59,7 @@ class TabsController < ApplicationController
 
     respond_to do |format|
       if @tab.save
-        flash[:notice] = "<strong>#{@tab.title}</strong> was successfully created."
+        flash[:notice] = t'flash.tab_created'
         format.html { redirect_to(@tab) }
         format.xml  { render :xml => @tab, :status => :created, :location => @tab }
       else
@@ -76,7 +76,7 @@ class TabsController < ApplicationController
 
     respond_to do |format|
       if @tab.update_attributes(params[:tab])
-        flash[:notice] = "<strong>#{@tab.title}</strong> was successfully updated."
+        flash[:notice] = t'flash.tab_udated'
         format.html { redirect_to(@tab) }
         format.xml  { head :ok }
       else
@@ -93,14 +93,14 @@ class TabsController < ApplicationController
       @tab = Tab.find(params[:id])
       @tab.destroy
 
-      flash[:notice] = "<strong>#{@tab.title}</strong> is successfully deleted"
+      flash[:notice] = t'flash.tab_deleted'
       redirect_to root_url
       #respond_to do |format|
       #  format.html { redirect_to(tabs_url) }
       #  format.xml  { head :ok }
       #end
     else
-      flash[:warning] = 'Premission denied!'
+      flash[:warning] = t'flash.premission_denied'
       redirect_to root_url
     end
   end

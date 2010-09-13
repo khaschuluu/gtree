@@ -1,17 +1,17 @@
-<h1>Login</h1>
+<h1><%= t 'login.title' %></h1>
 
 <%= form_for(@user_session, :url => user_session_path) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :username %><br />
+    <%= f.label (t 'login.username') %><br />
     <%= f.text_field :username %>
   </p>
   <p>
-    <%= f.label :password %><br />
+    <%= f.label (t 'login.password') %><br />
     <%= f.password_field :password %>
   </p>
   <p>
-    <%= f.submit "Login" %>
+    <%= f.submit (t 'login.login') %>
   </p>
 <% end %>

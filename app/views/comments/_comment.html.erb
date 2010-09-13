@@ -1,7 +1,13 @@
 <% div_for comment do %>
   <p>
-  <%= image_tag User.find(comment.user_id).gravatar_url() %>
-    <strong><%= User.find(comment.user_id).username %></strong> sayd <%= time_ago_in_words(comment.created_at) %> ago<br />
-    <%= h(comment.body) %>
+  <% if comment.user_id != 0 %>
+    <%= image_tag User.find(comment.user_id).gravatar_url() %>
+    <strong><%= link_to User.find(comment.user_id).username, user_path(User.find(comment.user_id)) %></strong>
+  <% else %>
+    <%= image_tag "http://3.bp.blogspot.com/_X_wVXvHFqD8/RiZ8-Qvhq5I/AAAAAAAAATo/BiA2DnDjuOo/s400/anonymous1.jpg", :height => 50, :width => 50 %>
+    <strong>Anonymous</strong>  
+  <% end %>
+  sayd <%= time_ago_in_words(comment.created_at) %> ago<br />
+  <%= h(comment.body) %>
   </p>
 <% end %>

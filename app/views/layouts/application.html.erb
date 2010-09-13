@@ -21,49 +21,53 @@
 	</head>
 	<body>
 		<div class="container">
-        <div class="span-24 header">
-		<div class="span-4"><%= link_to image_tag("header.png"), root_url, :title => (t 'home.head.logo') %></div>
-        <div class="span-20 last header_right">
+        <div class="span-24 last header">
+		<div class="span-5 "><%= link_to image_tag("header.png"), root_url, :title => (t'home.head.logo') %></div>
         <% if current_user %>
             <div class="span-5">
         <% else %>
             <div class="span-3">
         <% end %>
-			<div class="span-1"><%= link_to image_tag("home.png"), root_url, :title => (t 'home.head.home') %></div>
-			<div class="span-1"><%= link_to image_tag("users.png"), users_path, :title => (t 'home.head.users') %></div>
+			<div class="span-1"><%= link_to image_tag("home.png"), root_url, :title => (t'home.head.home') %></div>
+			<div class="span-1"><%= link_to image_tag("users.png"), users_path, :title => (t'home.head.users') %></div>
 		<% if current_user %>
-			<div class="span-1"><%= link_to image_tag("add.png"), new_tab_path, :title => (t 'home.head.add_tab') %></div>
+			<div class="span-1"><%= link_to image_tag("add.png"), new_tab_path, :title => (t'home.head.add_tab') %></div>
 			<div class="span-1"><%= link_to image_tag("my_tabs.png"), tabs_path(:user_id => current_user.id), :title => (t 'home.head.my_tabs') %></div>
-			<div class="span-1 last"><%= image_tag 'search.png', :title => "Search", :alt => (t 'home.head.search') %></div>
+			<div class="span-1 last"><%= image_tag 'search.png', :title => "Search", :alt => (t'home.head.search') %></div>
             </div>
             <div class="span-7">
 			<% form_tag tabs_path, :method => 'get' do %>
 			  <%= text_field_tag :search, params[:search] %>
-			  <%= submit_tag (t 'home.head.search'), :name => nil %>
+			  <%= submit_tag (t'home.head.search'), :name => nil %>
 			<% end %>
             </div>
-            <!--div class="column"></div-->
-            <div class="prepend-3 span-4 last">
+            <div class="span-1">
+              <%= image_tag 'flag_mn_enable.png' %>
+              <%= image_tag 'flag_en_enable.png' %>
+            </div>
+            <div class="prepend-1 span-4 last">
+		    <%= link_to current_user.username, user_path(:current), :title => (t'home.head.profile'), :id =>"current_user" %>
 		    <%= image_tag current_user.gravatar_url(:size => 30), :alt => "[avatar]", :height => 30, :width => 30 %>
-		    <%= link_to current_user.username, user_path(:current), :title => (t 'home.head.profile'), :id =>"current_user" %>
             </div>
-		    <div class="span-1"><%= link_to image_tag("logout.png"), logout_path, :title => (t 'home.head.logout') %></div>
+		    <div class="span-1"><%= link_to image_tag("logout.png"), logout_path, :title => (t'home.head.logout') %></div>
 		<% else %>
-			<%= image_tag 'search.png', :title => (t 'home.head.search') %>
+			<%= image_tag 'search.png', :title => (t'home.head.search') %>
             </div>
-            <div class="span-9">
+            <div class="span-9" style="{visiblity: hide;}">
 			<% form_tag tabs_path, :method => 'get' do %>
 			  <%= text_field_tag :search, params[:search] %>
-			  <%= submit_tag (t 'home.head.search'), :name => nil %>
+			  <%= submit_tag (t'home.head.search'), :name => nil %>
 			<% end %>
             </div>
-            <!--div class="column"></div-->
-            <div class="prepend-5 span-2 last">
-			<%= link_to (t 'home.head.register'), new_user_path, :title => (t 'home.head.register') %>
+            <div class="span-1">
+              <%= link_to image_tag 'flag_mn_enable.png', :action => params[:locale] = 'mn' %>
+              <%= image_tag 'flag_en_enable.png' %>
             </div>
-            <div class="span-1"><%= link_to image_tag("login.png"), login_path, :title => (t 'home.head.login') %></div>
+            <div class="prepend-3 span-2 last">
+			<%= link_to (t'home.head.register'), new_user_path, :title => (t'home.head.register') %>
+            </div>
+            <div class="span-1"><%= link_to image_tag("login.png"), login_path, :title => (t'home.head.login') %></div>
 		<% end %>
-        </div>
         </div>
             
 		<% flash.each do |key, msg| %>
@@ -72,11 +76,11 @@
             </div>
 		<% end %>
 
-			<div class="mainContent">
+			<div class="main">
 				<%= yield %>
 			</div><!-- end .mainContent -->
 		</div><!-- end .container -->
-		
+
 		<div class="exp_footer">
 			<div class="footer">
 				<p>This is footer</p>

@@ -1,26 +1,30 @@
-<h1>Editing user</h1>
+<h1><%= t'user.edit_title' %></h1>
 
 <% form_for(@user) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :username %><br />
+    <%= f.label t'user.username' %><br />
     <%= f.text_field :username %>
   </p>
   <p>
-    <%= f.label :email %><br />
+    <%= f.label t'user.email' %><br />
     <%= f.text_field :email %>
   </p>
   <p>
-    <%= f.label :password %><br />
+    <%= f.label t'user.password' %><br />
     <%= f.password_field :password %>
   </p>
   <p>
-    <%= f.label :password_confirmation %><br />
+    <%= f.label t'user.password_confirmation' %><br />
     <%= f.password_field :password_confirmation %>
   </p>
   <p>
-    <%= f.submit "Update" %>
+    <%= f.label t'user.language' %><br />
+    <%= f.select :language, [['English', 'en'], ['Монгол', 'mn']] %>
+  </p>
+  <p>
+    <%= f.submit t'user.update' %>
   </p>
 <% end %>
-<!-- <%= button_to "Delete account", current_user, :confirm => 'Are you sure!', :method => :delete %> -->
+<%= link_to (t'user.delete'), current_user, :confirm => (t'user.are_you_sure'), :method => :delete %>

@@ -1,5 +1,5 @@
 <% if @user == current_user %>
-  <h1>Your profile</h1>
+  <h1><%= t'user.your_profile' %></h1>
 <% else %>
   <h1><%=h @user.username %></h1>
 <% end %>
@@ -7,12 +7,12 @@
   <%= image_tag @user.gravatar_url %>
 </p>
 <p>
-  <b>Username:</b>
+  <b><%= t'user.username' %>:</b>
   <%=h @user.username %>
 </p>
 
 <p>
-  <b>Email:</b>
+  <b><%= t'user.email' %>:</b>
   <%=h @user.email %>
 </p>
 
@@ -22,6 +22,6 @@
 
 <% if current_user %>
   <% if current_user.id == @user.id %>
-    <%= link_to 'Edit profile', edit_user_path(:current) %>
+    <%= link_to (t'user.edit'), edit_user_path(:current) %>
   <% end %>
 <% end %>

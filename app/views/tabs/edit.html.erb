@@ -1,26 +1,27 @@
-<h1>Editing tab</h1>
+ <h1><%= t'tab.edit_tab_title' %></h1>
 
 <% form_for(@tab) do |f| %>
   <%= f.error_messages %>
 <div class="column">
-  <%= f.label :title %><br />
+  <%= f.label t'tab.title' %><br />
   <%= f.text_field :title %>
 </div>
 <div class="column">
-  <%= f.label :artist %><br />
+  <%= f.label t'tab.artist' %><br />
   <%= f.text_field :artist %>
 </div>
 <div class="column">
-  <%= f.label :tag %><br />
+  <%= f.label t'tab.tag' %><br />
   <%= f.text_field :tag %>
 </div>
-
+<br />
 <%= image_tag "fretboard.png", :usemap => "#fretboard", :id => "fretboard" %>
 <div id="tab-actions">
-<button type="button" onClick="clear_all()">Clear</button>
-<button type="button" onClick="back_clear()">Backspace</button>
-<button type="button" onClick='show_tab("tab_tab", "preview");'>Preview</button>
-<%= f.submit "Save" %>
+<button type="button" onClick="clear_all()"><%= t'tab.clear' %></button>
+<button type="button" onClick="back_clear()"><%= t'tab.backspace' %></button>
+<button type="button" onClick='show_tab("tab_tab", "preview");'><%= t'tab.preview' %></button>
+<%= f.submit t'tab.save' %>
+
 </div>
 <%= f.text_area :tab %>
 
