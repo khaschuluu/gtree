@@ -6,6 +6,8 @@
     <th><%= link_to (t 'tab.tag'), tabs_path(:order_by => 'tag') %> v</th>
     <th><%= (t 'tab.user') %></th>
     <th><%= link_to (t 'tab.created_at'), tabs_path(:order_by => 'created_at') %> v</th>
+    <th>Comments</th>
+    <th>Views</th>
   </tr>
 
 <% for tab in @tabs %>
@@ -15,6 +17,8 @@
     <td><%=h tab.tag %></td>
     <td><%= link_to User.find(tab.user_id).username, User.find(tab.user_id) %></td>
     <td><%= time_ago_in_words(tab.created_at) %> ago</td>
+    <td><%= tab.comments.count %></td>
+    <td><%= tab.counter %></td> 
     </tr>
 <% end %>
 </table>

@@ -6,6 +6,12 @@ body {
 h1 {
     color: #eee;
     text-shadow: #222 2px 2px 0;
+    text-align: center;
+}
+h3 {
+    color: #eee;
+    text-shadow: #222 2px 0;
+    text-align: center;
 }
 /* Tips for Elastic layouts 
 1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
@@ -107,7 +113,18 @@ textarea#text {
     width: 99%;
 }
 
-#preview {margin: 1em 0;}
+#preview {
+    margin: 1em 0;
+    background-color:white;
+    color: black;
+    text-shadow: white 2px 0;
+    padding: 10px;
+    opacity: .9;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
 #preview div.line{height:8px;margin:0;border-top:1px solid black}
 #preview div.bar{position:relative;}
 #preview span.note{background:rgba(255,255,255,0.5);position:absolute;font-size:8pt;padding:0}

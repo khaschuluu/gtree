@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100912104520) do
+ActiveRecord::Schema.define(:version => 20100914140243) do
 
   create_table "comments", :force => true do |t|
     t.integer  "tab_id"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(:version => 20100912104520) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "counter"
   end
 
   create_table "user_sessions", :force => true do |t|

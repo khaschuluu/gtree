@@ -1,19 +1,19 @@
 <h1><%=h @tab.title %></h1>
 
-<b>Artist:</b>
-<%=h @tab.artist %>
+<h3>by <%=h @tab.artist %></h3>
 <br />
 <b>Tag:</b>
 <%=h @tab.tag %>
-<br />
-<%= image_tag User.find(@tab.user_id).gravatar_url(:size => 50) %>
+<div class="creator">
+<%= image_tag User.find(@tab.user_id).gravatar_url(:size => 50), :alt => "[avatar]" %>
 <br />
 <%= link_to User.find(@tab.user_id).username, User.find(@tab.user_id) %> from <%= time_ago_in_words(@tab.created_at) %> ago 
+</div>
 <%= link_to_function "Show Text", "toggle_visibility('text')" %>
 <textarea id="text" style="display:none" readonly="readonly">
   <%= @tab.tab %>
 </textarea>
-<div id="preview"></div>
+<pre><div id="preview"></div></pre>
 <% if current_user %>
   <% if current_user.id == @tab.user_id %>
     <%= link_to 'Edit', edit_tab_path(@tab) %>

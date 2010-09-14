@@ -16,6 +16,12 @@ class TabsController < ApplicationController
   # GET /tabs/1.xml
   def show
     @tab = Tab.find(params[:id])
+    if @tab.counter == nil
+      @tab.counter = 1
+    else
+      @tab.counter = @tab.counter + 1
+    end
+    @tab.save
 
     respond_to do |format|
       format.html # show.html.erb
